@@ -1,53 +1,6 @@
-﻿<!DOCTYPE html><html ng-app='app'><head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<meta name="description" content="FLK pro, мебельное производство">
-	<meta name="author" content="npobs.ru">
-	<meta name="author" content="MS">
-	<title>FLK pro, мебельные системы</title>
-	
-	<link href="/static/img/favicon.ico" rel="icon" type="image/x-icon" />
+﻿{% extends 'mainapp/base.html' %}
+{% load static %}
 
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/static/css/normalize.css" rel="stylesheet" />
-	<link href="/static/css/main.css" rel="stylesheet" media="screen" />
-
-	<script src="/flpprodjango/js/angular.min.js"></script>
-
-	<script src="/flpprodjango/js/ui-bootstrap-0.5.0.js"></script>
-	<script src="/flpprodjango/js/angular-ui-router.min.js"></script>
-	<script src="/flpprodjango/js/app.js"></script>
-	
-</head><body>
-        <div class="mblogo"></div>
-        <div class="mobile">
-                <ul>
-                        <li><h3><a href="tel:79150034883" class="phone-link">&#9990; +7 (915) 003-48-83</a></h3></li>
-                        <li><h3><a href="/mainapp/templates/mainapp/map.html">карта проезда</a></h3></li>
-                </ul>
-        </div>
-        
-        <div class="l-menu">
-        	<div class="l-background"></div>
-        	<a href="#"><div class="b-logo"></div></a>
-        	<div class="b-sublogo" ng-controller="menuRepeat">
-        		<ul ng-repeat='item in menu'>
-        			<li><a href= {% url 'mainapp:index' %}>{{item.name}}</a></li>
-        		</ul>
-        	</div>
-        </div>
-
+{% block content %}
 	<div ng-view ng-animate=" 'animate' "></div>
-
-        <div class="footer">
-        	<ul>
-        	        <li><a href="tel:79150034883" class="phone-link">+7 (915) 003-48-83</a></li>
-        		<li><a href="map.html">карта проезда</a></li>
-        	</ul>
-        </div>
-        
-        
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=hlZ9XEZpA1-3_5slBr2SCE7QUn_n5grl&id=mymap"></script>
-       
-</body></html>
+{% endblock %}
