@@ -4,10 +4,13 @@ from django.shortcuts import render
 
 
 def index(request):
+
     return render(request, 'mainapp/index.html')
 
 def allproducts(request):
-    return render(request, 'mainapp/app/view/allproducts.html')
+
+    return render(request, 'mainapp/allproducts.html')
 
 def reception(request):
-    return render(request, 'mainapp/app/view/reception.html')
+
+    return render(request, 'mainapp/reception.html')

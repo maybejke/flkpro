@@ -1,14 +1,14 @@
 ﻿angular.module('app', ['ui.router'])
 .config (function ($routeProvider){
 	$routeProvider
-        	.when('/', {controller:'allProducts', templateUrl: '/mainapp/templates/mainapp/app/view/allproducts.html'})
-        	.when('/reception', {controller:'reception', templateUrl: '/mainapp/templates/mainapp/app/view/reception.html'})
-        	.when('/kitchen', {controller:'kitchen', templateUrl: '/mainapp/templates/mainapp/app/view/kitchen.html'})
-        	.when('/arch', {controller:'arch', templateUrl: '/mainapp/templates/mainapp/app/view/arch.html'})
-        	.when('/special', {controller:'special', templateUrl: '/mainapp/templates/mainapp/app/view/special.html'})
-        	.when('/tables', {controller:'tables', templateUrl: '/mainapp/templates/mainapp/app/view/tables.html'})
-        	.when('/decor', {controller:'decor', templateUrl: '/mainapp/templates/mainapp/app/view/decor.html'})
-        	.when('/living', {controller:'living', templateUrl: '/mainapp/templates/mainapp/app/view/living.html'})
+        	.when('/', {controller:'allProducts', templateUrl: '/mainapp/templates/mainapp/allproducts.html'})
+        	.when('/reception', {controller:'reception', templateUrl: '/mainapp/templates/mainapp/reception.html'})
+        	.when('/kitchen', {controller:'kitchen', templateUrl: '/mainapp/templates/mainapp/kitchen.html'})
+        	.when('/arch', {controller:'arch', templateUrl: '/mainapp/templates/mainapp/arch.html'})
+        	.when('/special', {controller:'special', templateUrl: '/mainapp/templates/mainapp/special.html'})
+        	.when('/tables', {controller:'tables', templateUrl: '/mainapp/templates/mainapp/tables.html'})
+        	.when('/decor', {controller:'decor', templateUrl: '/mainapp/templates/mainapp/decor.html'})
+        	.when('/living', {controller:'living', templateUrl: '/mainapp/templates/mainapp/living.html'})
 	.otherwise({redirectTo: '/'});
 })
 

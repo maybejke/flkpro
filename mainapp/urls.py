@@ -6,8 +6,8 @@ app_name = 'mainapp'
 
 urlpatterns = [
     path('', mainapp_views.index, name='index'),
-    path('allproducts/', mainapp_views.allproducts, name = 'allproducts'),
-    path('reception/', mainapp_views.reception, name = 'reception'),
+    path('allproducts/', mainapp_views.allproducts, name='allproducts'),
+    path('reception/', mainapp_views.reception, name='reception'),
     # path('/kitchen', {controller:'kitchen', templateUrl: 'app/view/kitchen.html'}),
     # path('/arch', {controller:'arch', templateUrl: 'app/view/arch.html'}),
     # path('/special', {controller:'special', templateUrl: 'app/view/special.html'}),
