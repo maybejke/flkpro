@@ -1,0 +1,1088 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=latin,cyrillic);
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Address styling not present in IE 8/9.
+ */
+[hidden] {
+  display: none;
+}
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+
+}
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted;
+}
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre-wrap;
+}
+/**
+ * Set consistent quote types.
+ */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0;
+}
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+figure {
+  margin: 0;
+}
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+
+  padding: 0;
+  /* 2 */
+
+}
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+
+  font-size: 100%;
+  /* 2 */
+
+  margin: 0;
+  /* 3 */
+
+}
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal;
+}
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none;
+}
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+
+  cursor: pointer;
+  /* 3 */
+
+}
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+
+  padding: 0;
+  /* 2 */
+
+}
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+
+  box-sizing: content-box;
+}
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+
+  vertical-align: top;
+  /* 2 */
+
+}
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: auto;
+  background-repeat: repeat;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+  text-rendering: auto;
+  cursor: default;
+}
+img {
+  border: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.flexible {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -webkit-flex-pack: center;
+  -ms-flex-direction: center;
+  -webkit-flex-direction: center;
+  -ms-flex-align: center;
+  list-style-type: none;
+  justify-content: center;
+}
+.user-select {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.fx-st {
+  box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.7);
+}
+.fx-sb {
+  box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.7);
+}
+.fx-sl {
+  box-shadow: -10px 0px 10px -10px rgba(0, 0, 0, 0.1);
+}
+.fx-sr {
+  box-shadow: 10px 0px 10px -10px rgba(0, 0, 0, 0.1);
+}
+.fx-btn {
+  box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+.fx-sins {
+  box-shadow: inset 0px 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.fx-ins-t {
+  box-shadow: inset 0px 10px 10px -5px rgba(0, 0, 0, 0.3), 0px 10px 10px -10px rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 1023px) {
+  .mobile-h {
+    display: none;
+  }
+  .footer,
+  .b-header,
+  .l-menu,
+  .l-workflow,
+  .b-main-image,
+  .right-pics,
+  .subpics,
+  .b-logo,
+  .b-sublogo,
+  .b-sub-cont {
+    display: none;
+  }
+  .mobile {
+    position: absolute;
+    display: block;
+    top: 40%;
+    width: 80%;
+    left: 10%;
+  }
+  .mblogo {
+    position: fixed;
+    height: 200px;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+    display: block;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .b-header {
+    top: 30px;
+    left: 300px;
+    height: 50px;
+    width: 300px;
+  }
+  .l-menu {
+    top: 30px;
+    height: 375px;
+    left: 50%;
+    width: 120px;
+    margin-left: -500px;
+  }
+  .l-workflow {
+    top: 0px;
+    left: 50%;
+    width: 700px;
+    margin-left: -350px;
+  }
+  .b-main-image {
+    top: 30px;
+    left: 0;
+    width: 700px;
+    height: 305px;
+  }
+  .b-main-image img {
+    width: 700px;
+    height: 300px;
+  }
+  .right-pics {
+    top: 30px;
+    right: -130px;
+    height: 305px;
+    width: 120px;
+    padding: 0 15px 0 15px;
+  }
+  .subpics {
+    top: 0;
+    left: 0;
+    height: 480px;
+    width: 200px;
+  }
+  .subpics ul li {
+    height: 110px;
+  }
+  .b-logo {
+    top: 0px;
+    height: 50px;
+    left: 0;
+    width: 120px;
+  }
+  .b-sublogo {
+    top: 10px;
+    left: 0;
+    width: 120px;
+    height: 415px;
+  }
+  .b-sub-cont {
+    top: 355px;
+    left: 0;
+    width: 700px;
+  }
+  .footer {
+    bottom: 0;
+    left: 50%;
+    width: 120px;
+    height: 40px;
+    margin-left: -500px;
+  }
+  .mobile-h,
+  .mblogo,
+  .mobile {
+    display: none;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1437px) {
+  .b-header {
+    top: 40px;
+    left: 300px;
+    height: 50px;
+    width: 300px;
+  }
+  .l-menu {
+    top: 40px;
+    height: 480px;
+    left: 50%;
+    width: 150px;
+    margin-left: -580px;
+  }
+  .l-workflow {
+    top: 0px;
+    left: 50%;
+    width: 900px;
+    height: 768px;
+    margin-left: -400px;
+  }
+  .b-main-image {
+    top: 40px;
+    left: 0;
+    width: 800px;
+    height: 425px;
+  }
+  .b-main-image img {
+    width: 800px;
+    height: 420px;
+  }
+  .right-pics {
+    top: 40px;
+    right: -70px;
+    height: 425px;
+    width: 150px;
+    padding: 0 15px 0 15px;
+  }
+  .subpics {
+    top: 0;
+    left: 0;
+    height: 480px;
+    width: 200px;
+  }
+  .subpics ul li {
+    height: 110px;
+  }
+  .b-logo {
+    top: 0px;
+    height: 50px;
+    left: 0;
+    width: 150px;
+  }
+  .b-sublogo {
+    top: 10px;
+    left: 0;
+    width: 150px;
+    height: 415px;
+  }
+  .b-sub-cont {
+    top: 480px;
+    left: 0;
+    width: 800px;
+    height: 200px;
+  }
+  .footer {
+    bottom: 0;
+    left: 50%;
+    width: 300px;
+    height: 40px;
+    margin-left: -150px;
+  }
+  body {
+    font-size: 1.3em;
+  }
+  .mobile-h,
+  .mblogo,
+  .mobile {
+    display: none;
+  }
+}
+@media (min-width: 1438px) {
+  .l-menu {
+    top: 100px;
+    height: 480px;
+    left: 50%;
+    width: 150px;
+    margin-left: -620px;
+  }
+  .l-workflow {
+    top: 0px;
+    left: 50%;
+    width: 1100px;
+    height: 800px;
+    margin-left: -450px;
+  }
+  .b-header {
+    top: 50px;
+    left: 300px;
+    height: 50px;
+    width: 300px;
+  }
+  .b-main-image {
+    top: 100px;
+    left: 0;
+    width: 900px;
+    height: 480px;
+  }
+  .right-pics {
+    top: 100px;
+    right: 30px;
+    height: 480px;
+    width: 150px;
+    padding: 0 15px 0 15px;
+  }
+  .subpics {
+    top: 0;
+    left: 0;
+    height: 480px;
+    width: 200px;
+  }
+  .subpics ul li {
+    height: 110px;
+  }
+  .b-logo {
+    top: 0px;
+    height: 50px;
+    left: 0;
+    width: 150px;
+  }
+  .b-sublogo {
+    top: 10px;
+    left: 0;
+    width: 150px;
+    height: 415px;
+  }
+  .b-sub-cont {
+    top: 600px;
+    left: 0;
+    width: 900px;
+    height: 200px;
+  }
+  .footer {
+    bottom: 0;
+    left: 50%;
+    width: 300px;
+    height: 50px;
+    margin-left: -150px;
+  }
+  .mobile-h,
+  .mblogo,
+  .mobile {
+    display: none;
+  }
+}
+hr {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+body {
+  overflow: hidden;
+}
+/*.l-background {
+	position: fixed;
+	left:0;top:0;right:0;bottom:0;
+	opacity: 0.5;
+	background:
+		url("../img/cornertl.png") no-repeat top left,
+		url("../img/cornertr.png") no-repeat top right,
+		url("../img/cornerbl.png") no-repeat bottom left,
+		url("../img/cornerbr.png") no-repeat bottom right;
+} */
+.l-menu {
+  position: absolute;
+}
+.l-workflow {
+  position: absolute;
+}
+.b-header {
+  position: absolute;
+  color: silver;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.b-header a {
+  display: inline-block;
+  width: 145px;
+  color: silver;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-header a:visited {
+  color: silver;
+}
+.b-header a:hover {
+  color: black;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+}
+.b-header a:first-of-type {
+  border-right: 2px solid #f38f1d;
+}
+.b-main-image {
+  position: absolute;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-main-image:hover {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+.right-pics {
+  position: absolute;
+  cursor: pointer;
+  -webkit-transition: all 3s ease-out;
+  -moz-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  transition-delay: 1s;
+  -webkit-transition-delay: 1s;
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+.subpics {
+  position: absolute;
+  overflow: auto;
+}
+.subpics ul li {
+  width: 115px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  opacity: 0.5;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  transition-delay: 2s;
+  -webkit-transition-delay: 2s;
+  -moz-transition-delay: 2s;
+  -o-transition-delay: 2s;
+}
+.subpics ul li:hover {
+  opacity: 1;
+  border: 1px solid black;
+  box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.mobile {
+  background: #f38f1d;
+  border: 3px solid #713f06;
+  text-align: center;
+}
+.mobile a {
+  color: white;
+  font-family: 'PT Serif', serif;
+  text-shadow: 0 0 3px white;
+}
+.mobile li {
+  margin-bottom: 20px;
+}
+.mblogo {
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.b-logo {
+  position: relative;
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.b-sublogo {
+  position: relative;
+  opacity: 0.2;
+  cursor: pointer;
+  color: black;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  font-family: 'PT Sans', sans-serif;
+}
+.b-sublogo:hover {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-sublogo li {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-sublogo li ul {
+  padding-top: 10px;
+}
+.b-sublogo li:hover {
+  color: #f38f1d;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-sublogo a {
+  color: black;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-sublogo a:hover {
+  color: #f38f1d;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  text-shadow: 0px 5px 3px silver;
+}
+.b-sub-cont {
+  position: absolute;
+  table-layout: fixed;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.b-sub-cont table {
+  width: 100%;
+}
+.b-sub-cont td:first-child {
+  color: #e27e0c;
+  font-family: 'PT Serif', serif;
+  width: 50%;
+  line-height: 180%;
+}
+.b-sub-cont tr td {
+  vertical-align: top;
+  line-height: 130%;
+  color: #5b5b5b;
+}
+.b-sub-cont a {
+  background-color: #f38f1d;
+  padding: 10px;
+  margin-top: 5px;
+  color: white;
+  display: inline-block;
+  border: 1px solid #f38f1d;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-sub-cont a:hover {
+  box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  background-color: #e27e0c;
+  border: 1px solid #9e3a00;
+}
+.b-sub-cont b {
+  font-weight: 400;
+  color: black;
+  text-shadow: 0px 3px 2px silver;
+  font-size: 1.1em;
+}
+.footer {
+  position: fixed;
+  background: white;
+  color: black;
+  border-top: 1px solid black;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.footer ul {
+  padding-top: 10px;
+}
+.footer ul li {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.footer ul li:first-child {
+  opacity: 1;
+}
+.footer a {
+  color: black;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.footer a:hover {
+  color: #f38f1d;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  text-shadow: 0px 5px 3px silver;
+}
+.footer:hover {
+  height: 110px;
+}
+.footer:hover .rokoko1 {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.footer:hover ul li {
+  opacity: 1;
+  text-shadow: 0px 15px 10px silver;
+}
+/*
+.rokoko1 {
+	position: absolute;
+	//border: 1px solid red;
+	top: -60px;
+	left: 50%;
+	width: 300px; margin-left: -150px;
+	height: 50px;
+	z-index: -1;
+	background-image: url("../img/rokoko1.png");
+	background-size: cover;
+	opacity: 0.5;
+	.trans;
+}
+*/
+.b-move-left {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  height: 30px;
+  width: 30px;
+  margin-left: -50px;
+  font-size: 3em;
+  line-height: 50%;
+  color: silver;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-move-left:hover {
+  color: black;
+  margin-left: -55px;
+  text-shadow: 10px 3px 5px gray;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-move-right {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  height: 30px;
+  width: 30px;
+  margin-right: -50px;
+  font-size: 3em;
+  line-height: 50%;
+  color: silver;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.b-move-right:hover {
+  color: black;
+  margin-right: -55px;
+  text-shadow: -10px 3px 5px #808080;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.animate-enter {
+  -webkit-transition: 1s -webkit-cubic-bezier(0.25, 0.1, 0.1, 1) all;
+  /* Chrome */
+
+  transition: 1s cubic-bezier(0.25, 0.1, 0.1, 1) all;
+  opacity: 0;
+}
+.animate-enter.animate-enter-active {
+  opacity: 1;
+}

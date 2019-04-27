@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fd65fe1-52c5-4080-a162-cab798ca3bd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/.idea/flpprodjango.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/js/angular-ui-router.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/js/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/js/jquery-2.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/js/ui-bootstrap-0.5.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flpprodjango/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/angular-ui-router.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/jquery-2.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/ui-bootstrap-0.5.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/additional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/allproducts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/arch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/decor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/kitchen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/living.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/reception.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/route1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/route2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/special.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/app/view/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/reset.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/resp.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/arch/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/corner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/cornerbl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/cornerbr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/cornertl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/cornertr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/decor/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/kit/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/living/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/living/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/living/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/living/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/living/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/living/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/living/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/living/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/rec/slide8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/spec/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/slide8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/img/tables/slide9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/index_old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/reset.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/resp.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/all/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/all/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/all/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/all/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/all/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/all/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/all/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/all/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/all/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/arch/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/corner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/cornerbl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/cornerbr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/cornertl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/cornertr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/decor/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/kit/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/living/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/living/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/living/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/living/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/living/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/living/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/living/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/living/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/rec/slide8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/spec/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/slide5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/slide6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/slide7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/slide8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/tables/slide9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/additional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/allproducts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/arch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/decor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/index_old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/kitchen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/living.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/reception.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/route1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/route2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/special.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flpprodjango/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flpprodjango/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#636#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/app/view/about.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/app/view/additional.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flpprodjango/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/flpprodjango/settings.py" />
+        <option value="$PROJECT_DIR$/static/js/app.js" />
+        <option value="$PROJECT_DIR$/flpprodjango/urls.py" />
+        <option value="$PROJECT_DIR$/mainapp/views.py" />
+        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/app/app.js" />
+        <option value="$PROJECT_DIR$/mainapp/urls.py" />
+        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="181" />
+    <option name="width" value="917" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+              <item name="fklpro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mainapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flpprodjango" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/mainapp/templates/mainapp" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="flpprodjango" type="Python.DjangoServer" factoryName="Django server">
+      <module name="flpprodjango" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="flpprodjango.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fd65fe1-52c5-4080-a162-cab798ca3bd6" name="Default Changelist" comment="" />
+      <created>1553961438965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553961438965</updated>
+      <workItem from="1553961442294" duration="77000" />
+      <workItem from="1553961550086" duration="521000" />
+      <workItem from="1554017023008" duration="439000" />
+      <workItem from="1554017522933" duration="4274000" />
+      <workItem from="1554622324421" duration="4134000" />
+    </task>
+    <task id="LOCAL-00001" summary="start">
+      <created>1554017649289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554017649293</updated>
+    </task>
+    <task id="LOCAL-00002" summary="index html">
+      <created>1554022423002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554022423002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="патыюсь в тупую запустить ангулар на джанге">
+      <created>1554623930133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554623930133</updated>
+    </task>
+    <task id="LOCAL-00004" summary="патыюсь в тупую запустить ангулар на джанге">
+      <created>1554624024613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554624024613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9445000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16878805" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49943247" weight="0.32824427" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50056756" side_tool="true" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49943247" visible="true" weight="0.11886587" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start" />
+    <MESSAGE value="index html" />
+    <MESSAGE value="патыюсь в тупую запустить ангулар на джанге" />
+    <option name="LAST_COMMIT_MESSAGE" value="патыюсь в тупую запустить ангулар на джанге" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/flpprodjango/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/view/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flpprodjango/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flpprodjango/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/app/view/about.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/app/view/additional.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/app/ui-bootstrap-0.5.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flpprodjango/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
