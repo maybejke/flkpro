@@ -2,91 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1294de57-757b-4b75-a868-470b1100778b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/thumbelina.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/thumbelina.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/flpprodjango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flpprodjango.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flpprodjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/flpprodjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/Web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/additional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/allproducts.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/allproducts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/arch.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/arch.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/reset.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/resp.less" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/resp.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/css/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/decor.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/decor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/kitchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/kitchen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/living.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/living.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/reception.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/reception.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/route1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/route1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/route2.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/route2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/special.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/special.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/reset.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/resp.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/resp.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/view/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/static/view/Web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/chardetect" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/chardetect" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/python3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/sqlformat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/sqlformat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-2.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-2.2.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libfreetype-3e240bcb.so.6.16.1" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libfreetype-3e240bcb.so.6.16.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libjpeg-3fe7dfc0.so.9.3.0" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libjpeg-3fe7dfc0.so.9.3.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/liblcms2-a6801db4.so.2.0.8" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/liblcms2-a6801db4.so.2.0.8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/liblzma-6cd627ed.so.5.2.4" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/liblzma-6cd627ed.so.5.2.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libopenjp2-e366d6b0.so.2.1.0" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libopenjp2-e366d6b0.so.2.1.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libpng16-9e58a7b0.so.16.36.0" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libpng16-9e58a7b0.so.16.36.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libtiff-8267adfe.so.5.4.0" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libtiff-8267adfe.so.5.4.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libwebp-baad113c.so.7.0.4" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libwebp-baad113c.so.7.0.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libwebpdemux-60cc0b6d.so.2.0.6" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libwebpdemux-60cc0b6d.so.2.0.6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libwebpmux-75695800.so.3.0.4" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libwebpmux-75695800.so.3.0.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libz-a147dcb0.so.1.2.3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/.libs/libz-a147dcb0.so.1.2.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imaging.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imaging.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingcms.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingcms.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingft.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingft.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingmath.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingmath.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingmorph.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingmorph.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingtk.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_imagingtk.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_webp.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/_webp.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Pillow-6.0.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Pillow-6.0.0.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi-2019.3.9.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/certifi-2019.3.9.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/chardet-3.0.4.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/bin/django-admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/conf/project_template/manage.py-tpl" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/conf/project_template/manage.py-tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna-2.8.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/idna-2.8.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.1.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/operations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/operations/check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/operations/freeze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pkg_resources-0.0.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pkg_resources-0.0.0.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pkg_resources/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pkg_resources/_vendor/pyparsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pytz-2018.9.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pytz-2018.9.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests-2.21.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/requests-2.21.0.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-40.8.0.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools/_vendor/pyparsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/sqlparse-0.3.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/sqlparse-0.3.0.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3-1.24.2.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/urllib3-1.24.2.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib64" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib64" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/all/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/all/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/all/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/all/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/all/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/all/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/all/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/all/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/all/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/all/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/all/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/all/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/all/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/all/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/all/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/all/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/all/slide4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/all/slide4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/slide4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/slide4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/slide5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/slide5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/slide6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/slide6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/arch/slide7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/arch/slide7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/slide4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/slide4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/slide5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/slide5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/slide6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/slide6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/decor/slide7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/decor/slide7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/slide4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/slide4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/slide5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/slide5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/kit/slide6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/kit/slide6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/living/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/living/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/living/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/living/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/living/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/living/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/living/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/living/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/living/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/living/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/living/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/living/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/living/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/living/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/living/slide4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/living/slide4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/slide4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/slide4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/slide5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/slide5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/slide6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/slide6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/slide7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/slide7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/rec/slide8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rec/slide8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/slide4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/slide4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/slide5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/slide5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/slide6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/slide6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/spec/slide7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/spec/slide7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/slide1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/slide1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/slide2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/slide2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/slide3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/slide3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/slide4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/slide4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/slide5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/slide5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/slide6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/slide6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/slide7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/slide7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/slide8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/slide8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tables/slide9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/tables/slide9.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,20 +122,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="37" column="31" selection-start-line="37" selection-end-line="38" />
+            <state relative-caret-position="-830">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -119,6 +154,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -140,9 +184,7 @@
       <list>
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/includes/inc_menu.html" />
         <option value="$PROJECT_DIR$/mainapp/views.py" />
-        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" />
         <option value="$PROJECT_DIR$/flpprodjango/urls.py" />
-        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/tables.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/special.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/route2.html" />
@@ -158,6 +200,9 @@
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/about.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/mainapp/models.py" />
+        <option value="$PROJECT_DIR$/thumbelina-master/index.html" />
+        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" />
+        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" />
       </list>
     </option>
   </component>
@@ -184,6 +229,12 @@
               <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -198,7 +249,13 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media" />
+      <recent name="$PROJECT_DIR$/static/css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,18 +282,17 @@
       <workItem from="1556569356713" duration="71000" />
       <workItem from="1556861182114" duration="557000" />
       <workItem from="1556879943876" duration="2727000" />
-      <workItem from="1556976275236" duration="1556000" />
+      <workItem from="1556976275236" duration="3663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7033000" />
+    <option name="totallyTimeSpent" value="9140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -250,7 +306,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27228916" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27228916" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3280116" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -413,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/decor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -448,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/allproducts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -469,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="37" column="31" selection-start-line="37" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -485,8 +520,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/thumbelina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thumbelina-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-830">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
