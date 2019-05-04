@@ -1,5 +1,7 @@
-{% load static %}
 <!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,23 +19,23 @@
     </head>
 
     <body>
-            {% block mobile %}
-            <div class="mblogo"></div>
-            <div class="mobile">
-                    <ul>
-                            <li><h3><a href="tel:79150034883" class="phone-link">&#9990; +7 (915) 003-48-83</a></h3></li>
-                            <li><h3><a href="/mainapp/templates/mainapp/map.html">карта проезда</a></h3></li>
-                    </ul>
-            </div>
-            {% endblock mobile %}
+<!--            {% block mobile %}-->
+<!--            <div class="mblogo"></div>-->
+<!--            <div class="mobile">-->
+<!--                    <ul>-->
+<!--                            <li><h3><a href="tel:79150034883" class="phone-link">&#9990; +7 (915) 003-48-83</a></h3></li>-->
+<!--                            <li><h3><a href="/mainapp/templates/mainapp/map.html">карта проезда</a></h3></li>-->
+<!--                    </ul>-->
+<!--            </div>-->
+<!--            {% endblock mobile %}-->
 
             {% block menu %}
             <div class="l-menu">
                 <div class="l-background"></div>
                 <a href="#"><div class="b-logo"></div></a>
-                <div class="b-sublogo" ng-controller="menuRepeat">
+                <div class="b-sublogo">
                     <ul ng-repeat='item in menu'>
-                        <li><a href= {% url 'mainapp:index' %}>{{item.name}}</a></li>
+                        {% include 'mainapp/includes/inc_menu.html' %}
                     </ul>
                 </div>
             </div>
