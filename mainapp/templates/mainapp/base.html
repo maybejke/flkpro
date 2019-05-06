@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% load static %}
+{% load staticfiles %}
 
 <html lang="en">
     <head>
@@ -10,11 +10,12 @@
         <title>FLK pro, мебельные системы</title>
 
         {% block css %}
-        <link href="/static/img/favicon.ico" rel="icon"/>
+        <link href="{% static 'img/favicon.ico' %]" rel="icon"/>
 
         <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/static/css/normalize.css" rel="stylesheet" />
-        <link href="/static/css/main.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="{% static 'style/css/normalize.css' %}" />
+        <link rel="stylesheet" href="{% static 'style/css/main.css' %}"/>
+        <link rel="stylesheet" href="{% static 'style/style.css' %}">
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -22,36 +23,13 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
 
         <!-- Include Thumbelina CSS. -->
-        <link rel="stylesheet" type="text/css" href="/static/css/thumbelina.css" />
+<!--        <link rel="stylesheet" type="text/css" href="{% static 'css/thumbelina.css' %}" />-->
 
         <!-- Include Thumbelina script. -->
-        <script type="text/javascript" src="/static/css/thumbelina.js"></script>
 
-        <!-- Create sliders. -->
-        <script type="text/javascript">
-            $(function(){
+        <link rel="stylesheet" href="{% static '/js/thumbelina.js' %}" type="text/javascript" />
 
-                $('#slider3').Thumbelina({
-                    orientation:'vertical',         // Use vertical mode (default horizontal).
-                    $bwdBut:$('#slider3 .top'),     // Selector to top button.
-                    $fwdBut:$('#slider3 .bottom')   // Selector to bottom button.
-                });
 
-            })
-        </script>
-
-        <style type="text/css">
-
-            #slider3 {
-                position:relative;
-                margin-top:40px;
-                width:93px;
-                height:256px;
-                border-left:1px solid #aaa;
-                border-right:1px solid #aaa;
-                margin-bottom:40px;
-            }
-        </style>
         {% endblock css %}
     </head>
 
@@ -78,10 +56,21 @@
             </div>
             {% endblock menu %}
 
-            {% block content %}
+            <div class="container content">
+        <div class="row">
+             <div class="col-lg-3 col-sm-4">
+                <ul class="hidden-xs mainMenu">
+                    {% include 'mainapp/includes/inc_menu.html' %}
+                </ul>
 
+                <div class="col-lg-9 col-md-8 col-sm-8 ">
+                {% block content %}
 
-            {% endblock %}
+                {% endblock %}
+                </div>
+
+            </div>
+        </div>
 
             {% block footer %}
             <div class="footer">
@@ -95,12 +84,11 @@
     <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=hlZ9XEZpA1-3_5slBr2SCE7QUn_n5grl&id=mymap"></script>
 
         {% block js %}
-            <script src="/flpprodjango/js/angular.min.js"></script>
-
-            <script src="/flpprodjango/js/ui-bootstrap-0.5.0.js"></script>
-            <script src="/flpprodjango/js/angular-ui-router.min.js"></script>
-            <script src="/flpprodjango/js/app.js"></script>
-            {% endblock js %}
+            <script src="{% static 'js/angular.min.js' %}"></script>
+            <script src="{% static 'js/ui-bootstrap-0.5.0.js '%}"></script>
+            <script src="{% static 'js/angular-ui-router.min.js' %}"></script>
+            <script src="{% static 'js/app.js' %}"></script>
+        {% endblock js %}
 
     </body>
 </html>
