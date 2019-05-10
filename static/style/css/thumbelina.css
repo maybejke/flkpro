@@ -118,10 +118,10 @@
 
 /* Vertical buttons. */  
 .thumbelina-but.vert {
-    left:-1px;
+    left: -1px;
     height: 20px;
     line-height: 20px;
-    width:93px
+    width: 121px;
 }
 
 /* Top edge button. */

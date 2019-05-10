@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dbeef2+0,8fc9d4+100 */
     background: rgb(255,255,255); /* Old browsers */
     background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 71%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
@@ -11,7 +12,8 @@ body {
 }
 
 .col-lg-2 .col-lg-8 .col-lg-1 .col-md-1 .col-md-8 .col-sm-2 .col-sm-6 {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 .header {
     height: 100px;
@@ -32,18 +34,19 @@ body {
     padding: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
-/*.preview {*/
-/*display: block;*/
-/*width: 700px;*/
-/*height: 300px;*/
-/*background-color: white;*/
-/*margin: 0 auto;*/
-/*}*/
-/*.preview img {*/
-/*width: 700px;*/
-/*}*/
+.preview {
+width: 700px;
+background-color: white;
+margin: 0 auto;
+}
+.preview img {
+width: 700px;
+}
+
+
 
 .thumbnail {
 display: block;
@@ -54,28 +57,31 @@ position: relative;
 .thumbnail li img {
 list-style-type: none;
 padding: 0;
-margin: 20px auto;
+margin: 5px auto;
 }
 
 #slider3 {
     float: left;
     margin-top: 20px;
-    width: 93px;
-    height: 485px;
-    border-left: 1px solid #aaa;
-    border-right: 1px solid #aaa;
-    position: relative;
+    /* border-left: 1px solid #aaa; */
+    /* border-right: 1px solid #aaa; */
+    position: absolute;
     background-color: #fff;
+    top: 0;
+    right: -90px;
+    height: 327px;
+    width: 120px;
+    padding: 0 0 15px;
 }
 
 
 .b-main-image li a {
-    width: 700px;
-    height: 300px;
+    width: 636px;
+    height: auto;
   }
 
 .content {
-    margin-top: -20px;
+    margin-top: 0;
 }
 
 @media (max-width: 767px) {
