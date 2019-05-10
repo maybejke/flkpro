@@ -10,26 +10,18 @@
         <title>FLK pro, мебельные системы</title>
 
         {% block css %}
-        <link href="{% static 'img/favicon.ico' %]" rel="icon"/>
-
-        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="{% static 'style/css/normalize.css' %}" />
-        <link rel="stylesheet" href="{% static 'style/css/main.css' %}"/>
-        <link rel="stylesheet" href="{% static 'style/style.css' %}">
-
+        <link href="/static/img/favicon.ico" rel="icon"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
         <!-- Include jQuery. -->
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
-
-        <link rel="stylesheet" href="{% static '/js/thumbelina.js' %}" type="text/javascript" />
+        <link rel="stylesheet" href="/static/js/thumbelina.js" type="text/javascript" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <!-- Include Thumbelina CSS. -->
-        <link rel="stylesheet" type="text/css" href="" />
-        <link rel="stylesheet" href="packages/font-awesome-4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="stylesheet" href="cloudzoom/cloudzoom.css">
+        <link rel="stylesheet" type="text/css" href="/static/style/css/thumbelina.css" />
+        <link rel="stylesheet" href="/static/packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/style/style.css">
+        <link href="/static/cloudzoom/cloudzoom.css" rel="stylesheet">
+
         {% endblock css %}
 
         <script>
@@ -82,53 +74,89 @@
 
     </head>
 
+    {% block header %}
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-default xsNavBar visible-xs">
+                    <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav">
+                            {% include 'mainapp/includes/inc_menu.html' %}
+                          </ul>
+                        </div>
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+    {% endblock %}
+
     <body>
 
-            {% block menu %}
-            <div class="l-menu">
-                <div class="l-background"></div>
-                <a href="#"><div class="b-logo"></div></a>
-                <div class="b-sublogo">
-                    <ul ng-repeat='item in menu'>
+        <div class="container content">
+            <div class="row">
+                 <div class="col-lg-2 col-sm-2">
+                    <ul class="hidden-xs b-sublogo">
                         {% include 'mainapp/includes/inc_menu.html' %}
                     </ul>
                 </div>
-            </div>
-            {% endblock menu %}
 
-            <div class="container content">
-        <div class="row">
-             <div class="col-lg-3 col-sm-4">
-                <ul class="hidden-xs mainMenu">
-                    {% include 'mainapp/includes/inc_menu.html' %}
-                </ul>
 
-                <div class="col-lg-9 col-md-8 col-sm-8 ">
-                {% block content %}
+                        <div class="col-lg-8 col-md-8 col-sm-6 ">
+                            <div id="preview" class="preview"><img src="/media/all/1.jpg"> </div>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-2">
+                            <div  id="slider3">
+                                <div class="thumbelina-but vert top">&#708;</div>
+                                <ul id="thumbnail" class="thumbnail b-main-image">
+                                    {% block content%}
 
-                {% endblock %}
-                </div>
+                                    {% endblock content %}
+                                </ul>
+                                <div class="thumbelina-but vert bottom">&#709;</div>
+                            </div>
+                        </div>
 
             </div>
         </div>
 
-            {% block footer %}
-            <div class="footer">
-                <ul>
-                        <li><a href="tel:79150034883" class="phone-link">+7 (915) 003-48-83</a></li>
-                    <li><a href="map.html">карта проезда</a></li>
-                </ul>
-            </div>
-            {% endblock footer %}
+        {% block footer %}
+        <div class="footer">
+            <ul>
+                    <li><a href="tel:79150034883" class="phone-link">+7 (915) 003-48-83</a></li>
+                <li><a href="map.html">карта проезда</a></li>
+            </ul>
+        </div>
+        {% endblock footer %}
+        <!-- Include jQuery. -->
+      <script type="text/javascript" src="/static/js/jquery.js"></script>
+      <!-- Include Thumbelina script. -->
+      <script type="text/javascript" src="/static/js/thumbelina.js"></script>
+      <script type="text/javascript" src="/static/cloudzoom/cloudzoom.js"></script>
 
-    <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=hlZ9XEZpA1-3_5slBr2SCE7QUn_n5grl&id=mymap"></script>
+      <!-- Create sliders. -->
+      <script type="text/javascript">
+          $(window).load(function(){
 
-        {% block js %}
-            <script src="{% static 'js/angular.min.js' %}"></script>
-            <script src="{% static 'js/ui-bootstrap-0.5.0.js '%}"></script>
-            <script src="{% static 'js/angular-ui-router.min.js' %}"></script>
-            <script src="{% static 'js/app.js' %}"></script>
-        {% endblock js %}
+              $('#slider3').Thumbelina({
+                  orientation:'vertical',         // Use vertical mode (default horizontal).
+                  $bwdBut:$('#slider3 .top'),     // Selector to top button.
+                  $fwdBut:$('#slider3 .bottom')   // Selector to bottom button.
+              });
 
+          });
+        </script>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=raffaelec" async="async"></script>
+        <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=hlZ9XEZpA1-3_5slBr2SCE7QUn_n5grl&id=mymap"></script>
     </body>
 </html>

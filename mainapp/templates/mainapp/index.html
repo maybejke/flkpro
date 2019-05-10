@@ -2,44 +2,9 @@
 {% load staticfiles %}
 
 {% block content %}
-        <script type="text/javascript">
-            $(function(){
-
-                $('#slider3').Thumbelina({
-                    orientation:'vertical',         // Use vertical mode (default horizontal).
-                    $bwdBut:$('#slider3 .top'),     // Selector to top button.
-                    $fwdBut:$('#slider3 .bottom')   // Selector to bottom button.
-                });
-
-            })
-        </script>
-        <style type="text/css">
-
-            #slider3 {
-                position:relative;
-                margin-top:40px;
-                width:93px;
-                height:256px;
-                border-left:1px solid #aaa;
-                border-right:1px solid #aaa;
-                margin-bottom:40px;
-            }
-        </style>
-        <h2>Vertical Slider</h2>
-        <img class="cloudzoom" alt="Cloud Zoom small image" id="zoom1" src="/media/all/1.jpg"
-                    data-cloudzoom="
-                        zoomSizeMode:&quot;image&quot;,
-                        autoInside: 550"
-                    style="user-select: none;">
-        <div  id="slider3">
-            <div class="thumbelina-but vert top">&#708;</div>
-            <ul>
-                <li><img src="/media/all/1.jpg"></li>
-                <li><img src="/media/all/2.jpg"></li>
-                <li><img src="/media/all/3.jpg"></li>
-                <li><img src="/media/all/4.jpg"></li>
-                <li><img src="/media/all/5.jpg"></li>
-            </ul>
-            <div class="thumbelina-but vert bottom">&#709;</div>
-        </div>
+        <li> <a href="/media/all/5.jpg"><img src="/media/all/slide1.jpg"></a></li>
+        <li> <a href="/media/all/1.jpg"><img src="/media/all/slide1.jpg"></a></li>
+        <li> <a href="/media/all/2.jpg"><img src="/media/all/slide2.jpg"></a></li>
+        <li> <a href="/media/all/3.jpg"><img src="/media/all/slide3.jpg"></a></li>
+        <li> <a href="/media/all/4.jpg"><img src="/media/all/slide4.jpg"></a></li>
 {% endblock %}
