@@ -22,15 +22,64 @@
         <!-- Include jQuery. -->
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
 
-        <!-- Include Thumbelina CSS. -->
-<!--        <link rel="stylesheet" type="text/css" href="{% static 'css/thumbelina.css' %}" />-->
-
-        <!-- Include Thumbelina script. -->
-
         <link rel="stylesheet" href="{% static '/js/thumbelina.js' %}" type="text/javascript" />
-
-
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- Include Thumbelina CSS. -->
+        <link rel="stylesheet" type="text/css" href="" />
+        <link rel="stylesheet" href="packages/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="cloudzoom/cloudzoom.css">
         {% endblock css %}
+
+        <script>
+          function init() {
+            var $thumbnail = document.getElementById('thumbnail');
+
+            $thumbnail.addEventListener('click', handleThumbnailClick);
+
+            setInterval(handleTimeout, 5000);
+          }
+
+          var activeIndex = 0;
+          function handleTimeout() {
+            var $thumbnail = document.getElementById('thumbnail');
+            var $a = $thumbnail.children[activeIndex].children[0];
+
+            var path = $a.href;
+            $a.style.backgroundImage
+
+            var $preview = document.getElementById('preview');
+            $preview.innerHTML = '';
+
+            var $image = document.createElement('img');
+            $image.src = path;
+            $preview.appendChild($image);
+            activeIndex++;
+            if(activeIndex >= $thumbnail.children.length) {
+              activeIndex = 0;
+            }
+          }
+
+          function handleThumbnailClick(event) {
+            event.preventDefault();
+            if(event.target.tagName === 'IMG') {
+              var $a = event.target.parentElement;
+              var path = $a.href;
+              $a.style.backgroundImage
+
+              var $preview = document.getElementById('preview');
+              $preview.innerHTML = '';
+
+              var $image = document.createElement('img');
+              $image.src = path;
+              $preview.appendChild($image);
+            }
+          }
+
+          window.addEventListener('load', init);
+        </script>
+
     </head>
 
     <body>
