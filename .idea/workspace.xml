@@ -18,17 +18,12 @@
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/app/jquery-2.0.3.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/app/ui-bootstrap-0.5.0.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/flexslider.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/flexslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/flexslider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/main.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/normalize.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/reset.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/resp.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/variables.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/css/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/variables.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/img/all/2.jpg" beforeDir="false" />
@@ -150,7 +145,7 @@
       <change beforePath="$PROJECT_DIR$/static/css/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/reset.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/resp.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/resp.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/thumbelina.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/thumbelina.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/thumbelina.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/css/thumbelina.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/thumbelina.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/thumbelina.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/variables.less" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,8 +159,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="88" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+            <state relative-caret-position="240">
+              <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -291,7 +286,20 @@
               <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flpprodjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flpprodjango" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,6 +312,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -312,11 +321,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/style" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/css/style" />
       <recent name="$PROJECT_DIR$/media" />
-      <recent name="$PROJECT_DIR$/static/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,17 +353,17 @@
       <workItem from="1556569356713" duration="71000" />
       <workItem from="1556861182114" duration="557000" />
       <workItem from="1556879943876" duration="2727000" />
-      <workItem from="1556976275236" duration="7950000" />
+      <workItem from="1556976275236" duration="8197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13427000" />
+    <option name="totallyTimeSpent" value="13674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -368,7 +377,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27228916" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.27228916" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3280116" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -594,7 +603,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style/css/thumbelina.js">
+    <entry file="file://$PROJECT_DIR$/static/js/thumbelina.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -647,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="88" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+        <state relative-caret-position="240">
+          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
         </state>
       </provider>
     </entry>
