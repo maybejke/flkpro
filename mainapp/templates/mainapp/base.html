@@ -30,7 +30,7 @@
 
             $thumbnail.addEventListener('click', handleThumbnailClick);
 
-            setInterval(handleTimeout, 5000);
+            // setInterval(handleTimeout, 5000);
           }
 
           var activeIndex = 0;
@@ -110,23 +110,9 @@
                         {% include 'mainapp/includes/inc_menu.html' %}
                     </ul>
                 </div>
+                    {% block content%}
 
-
-                        <div class="col-lg-8 col-md-8 col-sm-6 ">
-                            <div id="preview" class="preview"><img src="/media/all/1.jpg"> </div>
-                        </div>
-                        <div class="col-lg-1 col-md-1 col-sm-2" style="padding-left: 0; padding-right: 0; ">
-                            <div  id="slider3">
-                                <div class="thumbelina-but vert top">&#708;</div>
-                                <ul id="thumbnail" class="thumbnail b-main-image">
-                                    {% block content%}
-
-                                    {% endblock content %}
-                                </ul>
-                                <div class="thumbelina-but vert bottom">&#709;</div>
-                            </div>
-                        </div>
-
+                    {% endblock content %}
             </div>
         </div>
 

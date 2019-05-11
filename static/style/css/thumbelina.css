@@ -92,7 +92,7 @@
 .thumbelina-but.disabled,
 .thumbelina-but.disabled:hover {
     background-color: #efefef;
-    color: #ccc;
+    color: #7b7878;
     cursor:default;
     box-shadow:none;
 }
