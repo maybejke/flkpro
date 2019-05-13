@@ -75,11 +75,9 @@
     </head>
 
     {% block header %}
-        <div class="header">
-            <div class="container">
+    <div class="container">
                 <nav class="navbar navbar-default xsNavBar visible-xs">
                     <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
@@ -87,21 +85,47 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                          <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>
-                        </div>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                          <ul class="nav navbar-nav">
-                            {% include 'mainapp/includes/inc_menu.html' %}
-                          </ul>
-                        </div>
-                    </div><!-- /.container-fluid -->
-                </nav>
-            </div>
-        </div>
+
+                            <ul class="nav nav-pills">
+                              <li role="presentation" class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                  Dropdown <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+<!--                                  <a class="dropdown-item" href="{% url 'index' %}"></a>-->
+                                   <a class="dropdown-item" href="{% url 'reception' %}">приемные зоны</a>
+<!--                                    <li><a href="{% url 'kitchen' %}">обеденные зоны</a></li>-->
+<!--                                    <li><a href="{% url 'arch' %}">системы хранения</a></li>-->
+<!--                                    <li><a href="{% url 'special' %}">специализированная мебель</a></li>-->
+<!--                                    <li><a href="{% url 'tables' %}">столешницы</a></li>-->
+<!--                                    <li><a href="{% url 'decor' %}">декоративные элементы</a></li>-->
+<!--                                    <li><a href="{% url 'living' %}">в жилые помещения</a></li>-->
+                                </ul>
+                              </li>
+                            </ul>
+<!--                          <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>-->
+<!--                        </div>-->
+<!--                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+<!--                         <ul class="nav navbar-nav">-->
+<!--                           <li><a href="{% url 'index' %}"></a></li>-->
+<!--                           <li><a href="{% url 'reception' %}">приемные зоны</a></li>-->
+<!--                            <li><a href="{% url 'kitchen' %}">обеденные зоны</a></li>-->
+<!--                            <li><a href="{% url 'arch' %}">системы хранения</a></li>-->
+<!--                            <li><a href="{% url 'special' %}">специализированная мебель</a></li>-->
+<!--                            <li><a href="{% url 'tables' %}">столешницы</a></li>-->
+<!--                            <li><a href="{% url 'decor' %}">декоративные элементы</a></li>-->
+<!--                            <li><a href="{% url 'living' %}">в жилые помещения</a></li>-->
+<!--                          </ul>-->
+<!--                        </div>-->
+                   </div>
+               </nav>
+           </div>
+       </div>
+
+
     {% endblock %}
 
-    <body>
+    <body class="body">
 
         <div class="container content">
             <div class="row">
