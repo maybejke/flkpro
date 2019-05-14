@@ -7,21 +7,24 @@ from .models import Image
 
 def index(request):
 
-    main_images = Image.objects.filter(is_active=True, category__is_active=True)
+    first_pages = Image.objects.filter(is_active=True, category__name='all')
 
     content = {
-        'main_images': main_images,
+        'first_pages': first_pages,
     }
+
     return render(request, 'mainapp/index.html', content)
 
 
-def allproducts(request):
-
-    return render(request, 'mainapp/allproducts.html')
-
-
 def reception(request):
-    return render(request, 'mainapp/reception.html')
+
+    first_pages = Image.objects.filter(is_active=True, category__name='reception')
+
+    content = {
+        'first_pages': first_pages,
+    }
+
+    return render(request, 'mainapp/reception.html', content)
 
 
 def kitchen(request):

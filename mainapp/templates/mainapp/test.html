@@ -1,97 +1,19 @@
-<!-- ngInclude -->
-
-function Ctrl($scope) {
-	$scope.templates = [
-		{ name: 'template1.html', url: 'template1.html'},
-		{ name: 'template2.html', url: 'template2.html'}
-	];
-	$scope.template = $scope.templates[0];
-}
-
-<body>
-	<div ng-controller="Ctrl">
-
-		<select ng-model="template" ng-options="t.name for t in templates">
-
-			<option value="">(blank)</option>
-
-		</select>
-
-		<div class="example-animate-container">
-
-			<div class="include-example" ng-include="template.url"></div>
-
-		</div>
+<div class="b-sub-cont">
+		<table>
+			<tr>
+			<td>
+				Приёмные.<br />
+				<span style="font-size: 40px;">Практичные решения.</span>
+			</td>
+			<td>
+				<p>Именно прихожая зона создает <b>первое впечатление</b> о вашем офисе.<br /><br />
+			        <span class="mobile-h">
+				Наши возможноcти позволяют разработать конструктив, изготовить стойку и окружающие её
+				детали интерьера, с использованием комбинирования искусственного и натурального камня, разнообразных цветов
+				ламината, окраски любого оттенка, стекла, нержавейки, алюминия и т.д.</p>
+				</span>
+			</td>
+			</tr>
+		</table>
+<!--		<div class="b-move-right">&#8919;</div> -->
 	</div>
-</body>
-
-
-<!-- ngSwitch -->
-
-function Ctrl($scope) {
-	$scope.items = ['settings', 'home', 'other'];
-	$scope.selection = $scope.items[0];
-}
-
-<div ng-controller="Ctrl">
-	<select ng-model="selection" ng-options="item for item in items">
-		</select>
-
-	<tt>selection={{selection}}</tt>
-	<hr/>
-
-	<div ng-switch on="selection">
-		<div ng-switch-when="settings">Settings Div</div>
-		<div ng-switch-when="home">Home Span</div>
-		<div ng-switch-default>default</div>
-	</div>
-</div>
-
-
-<!-- HTML -->
-
-<div ng-controller="Ctrl">
-  <select ng-model="selection" ng-options="item.type for item in items">
-  </select>
-  <tt>selection={{selection}}</tt>
-  <hr/>
-  <div>
-	<ul>
-    	<li ng-repeat="op in options"><a style="line-height: 13px;" title="{{op.title}}" tabindex="-1" href ng-click="selectSearchType(op)">{{op.title}}</a></li>
-	</ul>
-
-  </div>
-
-
-  <span class="pew"  ng-switch on="searchType.type" >
-    <div class="pew" ng-switch-when="title1">Settings Div</div>
-    <span class="pew"  ng-switch-when="title2"><input ng-model="test" placeholder="pre" type="text" />{{test}}</span>
-    <span class="pew"  ng-switch-default>default</span>
-  </span>
-
-</div>
-
-<!-- JS -->
-
-function Ctrl($scope) {
-  $scope.items = [{'type' : 'settings'}, {'type':'home'}, {'type':'other'}];
-  $scope.selection = $scope.items[0];
-
-  $scope.options = [
-    {'title' : 'Title1', 'label' : 'Zip code', 'type' : 'xxx' },
-    {'title' : 'Title2', 'label' : 'MD', 'type' : 'title1'},
-    {'title' : 'Title3', 'label' : 'DMS', 'type' : 'title2'}
-];
-
-  $scope.test = '';
-  $scope.searchType = $scope.options[0];
-
-  $scope.selectSearchType = function(op){
-    $scope.searchType = op;
-  };
-
-  $scope.actionme = function(){
-    console.log('value is:' + $scope.test);
-    //alert($scope.test);
-  };
-}

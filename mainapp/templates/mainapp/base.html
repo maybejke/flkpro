@@ -36,7 +36,7 @@
             $thumbnail.addEventListener('click', handleThumbnailClick);
             $thumbnail2.addEventListener('click', handleThumbnailClick);
 
-            // setInterval(handleTimeout, 5000);
+            setInterval(handleTimeout, 6000);
           }
 
           var activeIndex = 0;
@@ -84,37 +84,34 @@
 
           window.addEventListener('load', init);
         </script>
-
     </head>
-
-    {% block header %}
-        <div class="container">
-                <nav class="navbar navbar-default xsNavBar visible-xs">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                          </button>
-                          <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <div class="form-group">
-                             <ul class="nav navbar-nav">
-                                <li class="dropdown b-sublogo">
-                                        {% include 'mainapp/includes/inc_mini_menu.html' %}
-                                 </li>
-                              </ul>
+        {% block header %}
+            <div class="container">
+                    <nav class="navbar navbar-default xsNavBar visible-xs">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                              <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>
                             </div>
-                        </div>
-                   </div>
-               </nav>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <div class="form-group">
+                                 <ul class="nav navbar-nav">
+                                    <li class="dropdown b-sublogo">
+                                            {% include 'mainapp/includes/inc_mini_menu.html' %}
+                                     </li>
+                                  </ul>
+                                </div>
+                            </div>
+                       </div>
+                   </nav>
+               </div>
            </div>
-       </div>
-    {% endblock %}
-
+        {% endblock %}
     <body class="body">
         <div class="container content">
             <div class="row">
@@ -129,22 +126,55 @@
             </div>
         </div>
 
-        {% block footer %}
-        <div class="footer">
-            <ul>
-                    <li><a href="tel:79150034883" class="phone-link">+7 (915) 003-48-83</a></li>
-                <li><a href="map.html">карта проезда</a></li>
-            </ul>
-        </div>
-        {% endblock footer %}
-        <!-- Include jQuery. -->
-      <script type="text/javascript" src="/static/js/jquery.js"></script>
-      <!-- Include Thumbelina script. -->
-      <script type="text/javascript" src="/static/js/thumbelina.js"></script>
-      <script type="text/javascript" src="/static/cloudzoom/cloudzoom.js"></script>
+<!--             <div class="footer">-->
+<!--                    <div class="container footerInside">-->
+<!--                        <ul>-->
+<!--                            <li><a href="tel:79150034883" class="phone-link">+7 (915) 003-48-83</a></li>-->
+<!--                            <li><a href="map.html">карта проезда</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--             </div>-->
 
-      <!-- Create sliders. -->
-      <script type="text/javascript">
+        {% block footer %}
+            <div class="footer">
+                <div class="container footerInside">
+                    <div class="footerColumn">
+                        <div class="columnHead">
+                        </div>
+                        <div class="columnLinks">
+                        </div>
+                    </div>
+                    <div class="footerColumn about">
+                        <div class="columnHead">
+                        </div>
+                        <div class="columnAboutUs">
+                            <span class="mobile-h">
+                                <div class="aboutText">
+                                    <a href="map.html">карта проезда</a>
+                                </div>
+                                <div class="aboutPhone">
+                                    <span>Phone:</span> +7 (915) 003-48-83 <br>
+                                </div>
+                                <div class="aboutEmail">
+                                    <span>E-mail:</span> info@flkpro.ru
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endblock %}
+
+
+
+
+        <!-- Include jQuery. -->
+        <script type="text/javascript" src="/static/js/jquery.js"></script>
+        <!-- Include Thumbelina script. -->
+        <script type="text/javascript" src="/static/js/thumbelina.js"></script>
+        <script type="text/javascript" src="/static/cloudzoom/cloudzoom.js"></script>
+        <!-- Create sliders. -->
+        <script type="text/javascript">
           $(window).load(function(){
 
               $('#slider3').Thumbelina({
@@ -159,8 +189,7 @@
               });
 
           });
-      </script>
-
+        </script>
         <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=hlZ9XEZpA1-3_5slBr2SCE7QUn_n5grl&id=mymap"></script>
     </body>
 </html>

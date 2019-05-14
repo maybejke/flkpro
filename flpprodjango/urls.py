@@ -23,7 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', mainapp_views.index, name='index'),
     path('', include('mainapp.urls', namespace='index')),
-    path('allproducts/', mainapp_views.allproducts, name='allproducts'),
     path('reception/', mainapp_views.reception, name='reception'),
     path('kitchen/', mainapp_views.kitchen, name='kitchen'),
     path('arch/', mainapp_views.arch, name='arch'),

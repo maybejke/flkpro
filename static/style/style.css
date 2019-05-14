@@ -314,12 +314,190 @@ body {
 }
 
 .footer {
-    bottom: 0;
-    left: 50%;
-    width: 120px;
-    height: 40px;
-    margin-left: -500px;
-  }
+    margin-top: 200px;
+    min-height: 300px;
+    background-color: white;
+    color: black;
+    text-align: justify;
+}
+
+/*.footer > .container:before,
+.footer > .container:after {
+    display: none;
+} */
+
+.footerInside {
+    display: flex;
+    flex-wrap: wrap;/* 4tobi vistraivalis' v stroki */
+    justify-content: space-between;
+    padding-top: 75px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+    .footerColumn {
+        flex-grow: 1; /* stepen' jadnosti kagdogo blocka
+        na4inayt zanimat' i delit' rassto9mnie megdy soboi */
+        padding: 10px; /* prilegayt plotno, padding razdel9et */
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .footerColumn:nth-child(1) {
+        margin-left: -10px;
+    }
+
+    .footerColumn:nth-child(4) {
+        margin-right: -10px;
+    }
+
+    .footerColumn:nth-child(5) {
+        margin: 0 -10px;
+    }
+}
+
+.newsLetter {
+    width: 270px;
+}
+
+.about {
+    width: 232px;
+    color: black;
+    font-family: "Roboto Regular", sans-serif;
+}
+
+.aboutText {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.aboutPhone {
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.aboutPhone span,
+.aboutEmail span {
+    margin-right: 10px;
+}
+
+.aboutEmail {
+    margin-top: 14px;
+    color: #faef03;
+    font-size: 14px;
+}
+
+.aboutEmail span {
+    color: black;
+}
+
+.columnLinks a {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.columnHead {
+    font-family: "Raleway Extra Bold", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.columnNewsLetter {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.newsLetterText {
+    margin-bottom: 31px;
+}
+
+.columnNewsLetter input {
+    background-color: #fff51f;
+    width: 180px;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    float: left;
+    color: black;
+}
+
+.columnNewsLetter button {
+    width: 71px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+}
+
+.columnNewsLetter button:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.cardsWrap {
+    margin-top: 45px;
+}
+
+.cardsWrap img {
+    float: left;
+    margin-right: 5px;
+}
+
+.footerCopyrights {
+    background: #333;
+}
+
+.copyrightsInside {
+    min-height: 47px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .copyrightsInside {
+        flex-direction: column;
+    }
+}
+
+.copyrightsInside > div {
+    min-height: inherit;
+}
+
+.copyrightsInside:before,
+.copyrightsInside:after {
+    display: none;
+}
+
+.footerCopySign {
+    font-size: 12px;
+    line-height: 47px;
+    font-family: "Roboto Regular", sans-serif;
+}
+
+.footerSocials {
+    height: inherit;
+    width: 178px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 @media (min-width: 960px) and (max-width: 1199px) {
     .b-sublogo {
