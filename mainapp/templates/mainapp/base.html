@@ -13,7 +13,7 @@
         <link href="/static/img/favicon.ico" rel="icon"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <!-- Include jQuery. -->
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<!--        <script type="text/javascript" src="/static/js/jquery.js"></script>-->
         <link rel="stylesheet" href="/static/js/thumbelina.js" type="text/javascript" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <!-- Include Thumbelina CSS. -->
@@ -21,14 +21,20 @@
         <link rel="stylesheet" href="/static/packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="/static/style/style.css">
         <link href="/static/cloudzoom/cloudzoom.css" rel="stylesheet">
-
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         {% endblock css %}
 
         <script>
           function init() {
             var $thumbnail = document.getElementById('thumbnail');
+            var $thumbnail2 = document.getElementById('thumbnail2');
 
             $thumbnail.addEventListener('click', handleThumbnailClick);
+            $thumbnail2.addEventListener('click', handleThumbnailClick);
 
             // setInterval(handleTimeout, 5000);
           }
@@ -36,10 +42,14 @@
           var activeIndex = 0;
           function handleTimeout() {
             var $thumbnail = document.getElementById('thumbnail');
+            var $thumbnail2 = document.getElementById('thumbnail2');
             var $a = $thumbnail.children[activeIndex].children[0];
+            var $a2 = $thumbnail2.children[activeIndex].children[0];
 
             var path = $a.href;
+            var path2 = $a2.href;
             $a.style.backgroundImage
+            $a2.style.backgroundImage
 
             var $preview = document.getElementById('preview');
             $preview.innerHTML = '';
@@ -57,8 +67,11 @@
             event.preventDefault();
             if(event.target.tagName === 'IMG') {
               var $a = event.target.parentElement;
+              var $a2 = event.target.parentElement;
               var path = $a.href;
+              var path = $a2.href;
               $a.style.backgroundImage
+              $a2.style.backgroundImage
 
               var $preview = document.getElementById('preview');
               $preview.innerHTML = '';
@@ -75,7 +88,7 @@
     </head>
 
     {% block header %}
-    <div class="container">
+        <div class="container">
                 <nav class="navbar navbar-default xsNavBar visible-xs">
                     <div class="container-fluid">
                         <div class="navbar-header">
@@ -85,48 +98,24 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-
-                            <ul class="nav nav-pills">
-                              <li role="presentation" class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                  Dropdown <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-<!--                                  <a class="dropdown-item" href="{% url 'index' %}"></a>-->
-                                   <a class="dropdown-item" href="{% url 'reception' %}">приемные зоны</a>
-<!--                                    <li><a href="{% url 'kitchen' %}">обеденные зоны</a></li>-->
-<!--                                    <li><a href="{% url 'arch' %}">системы хранения</a></li>-->
-<!--                                    <li><a href="{% url 'special' %}">специализированная мебель</a></li>-->
-<!--                                    <li><a href="{% url 'tables' %}">столешницы</a></li>-->
-<!--                                    <li><a href="{% url 'decor' %}">декоративные элементы</a></li>-->
-<!--                                    <li><a href="{% url 'living' %}">в жилые помещения</a></li>-->
-                                </ul>
-                              </li>
-                            </ul>
-<!--                          <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>-->
-<!--                        </div>-->
-<!--                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-<!--                         <ul class="nav navbar-nav">-->
-<!--                           <li><a href="{% url 'index' %}"></a></li>-->
-<!--                           <li><a href="{% url 'reception' %}">приемные зоны</a></li>-->
-<!--                            <li><a href="{% url 'kitchen' %}">обеденные зоны</a></li>-->
-<!--                            <li><a href="{% url 'arch' %}">системы хранения</a></li>-->
-<!--                            <li><a href="{% url 'special' %}">специализированная мебель</a></li>-->
-<!--                            <li><a href="{% url 'tables' %}">столешницы</a></li>-->
-<!--                            <li><a href="{% url 'decor' %}">декоративные элементы</a></li>-->
-<!--                            <li><a href="{% url 'living' %}">в жилые помещения</a></li>-->
-<!--                          </ul>-->
-<!--                        </div>-->
+                          <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <div class="form-group">
+                             <ul class="nav navbar-nav">
+                                <li class="dropdown b-sublogo">
+                                        {% include 'mainapp/includes/inc_mini_menu.html' %}
+                                 </li>
+                              </ul>
+                            </div>
+                        </div>
                    </div>
                </nav>
            </div>
        </div>
-
-
     {% endblock %}
 
     <body class="body">
-
         <div class="container content">
             <div class="row">
                  <div class="col-lg-2 col-sm-2">
@@ -164,8 +153,14 @@
                   $fwdBut:$('#slider3 .bottom')   // Selector to bottom button.
               });
 
+              $('#slider2').Thumbelina({        // Use vertical mode (default horizontal).
+                  $bwdBut:$('#slider2 .left'),     // Selector to left button.
+                  $fwdBut:$('#slider2 .right')   // Selector to right button.
+              });
+
           });
-        </script>
+      </script>
+
         <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=hlZ9XEZpA1-3_5slBr2SCE7QUn_n5grl&id=mymap"></script>
     </body>
 </html>

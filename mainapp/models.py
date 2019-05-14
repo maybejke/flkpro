@@ -15,7 +15,8 @@ class ImageCategory(models.Model):
 class Image(models.Model):
     category = models.ForeignKey(ImageCategory, on_delete=models.CASCADE)
     name = models.CharField(verbose_name='имя', max_length=64, unique=True)
-    image = models.ImageField(upload_to='images/', blank=True, null=True)
+    image = models.ImageField(verbose_name='Большая картинка', upload_to='images/', blank=True, null=True)
+    mini_image = models.ImageField(verbose_name='Маленькая картинка', upload_to='images/', blank=True, null=True)
     short_desc = models.CharField(verbose_name='короткое описание', max_length=128, blank=True)
     description = models.CharField(verbose_name='описание', max_length=256, blank=True)
     is_active = models.BooleanField(verbose_name='активная картинка', default=True)

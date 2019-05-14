@@ -1,11 +1,18 @@
 from django.shortcuts import render
+from .models import Image
 
 
 # Create your views here.
 
 
 def index(request):
-    return render(request, 'mainapp/index.html')
+
+    main_images = Image.objects.filter(is_active=True, category__is_active=True)
+
+    content = {
+        'main_images': main_images,
+    }
+    return render(request, 'mainapp/index.html', content)
 
 
 def allproducts(request):
