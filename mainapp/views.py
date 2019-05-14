@@ -16,6 +16,7 @@ def index(request):
 
 
 def allproducts(request):
+
     return render(request, 'mainapp/allproducts.html')
 
 
