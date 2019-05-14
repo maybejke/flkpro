@@ -2,11 +2,11 @@
 {% load staticfiles %}
 
 {% block content %}
-<div class="col-lg-8 col-md-6 col-sm-6 ">
+<div class="col-lg-8 col-md-6 col-sm-6 col-xs-10">
     <div id="preview" class="preview b-main"><img src="/media/all/1.jpg"> </div>
 </div>
 
-<div class="col-lg-1 col-md-1 col-sm-2 visible-lg visible-md visible-sm" style="padding-left: 0; padding-right: 0; ">
+<div class="col-lg-1 col-md-1 col-sm-2 hidden-xs" style="padding-left: 0; padding-right: 0; ">
     <div  id="slider3">
         <div class="thumbelina-but vert top">&#708;</div>
             <ul id="thumbnail" class="thumbnail b-main-image">
@@ -18,17 +18,18 @@
         <div class="thumbelina-but vert bottom">&#709;</div>
     </div>
 </div>
-<div class="col-lg-1 col-md-1 col-sm-2 visible-xs" style="padding-left: 0; padding-right: 0;">
-    <div  id="slider2">
-
-            <ul id="thumbnail2" class="thumbnail2 b-main-image">
-                {% for first_page in first_pages %}
-                    <li> <a href="/media/{{ first_page.image }}"><img src="/media/{{ first_page.mini_image }}"></a></li>
-                {% endfor %}
-            </ul>
+<div class="col-xs-10 visible-xs" style="padding-left: 0; padding-right: 0;">
+    <div class="container-fluid">
+        <div  id="slider2">
+                <ul id="thumbnail2" class="thumbnail2 b-main-image">
+                    {% for first_page in first_pages %}
+                        <li> <a href="/media/{{ first_page.image }}"><img src="/media/{{ first_page.mini_image }}"></a></li>
+                    {% endfor %}
+                </ul>
+        </div>
     </div>
 </div>
-<div class="col-lg-10 col-sm-8 col-md-10 visible-lg visible-md visible-sm">
+<div class="col-lg-10 col-sm-8 col-md-10 hidden-xs">
     <div class="b-sub-cont">
         <table>
             <tr>
@@ -45,25 +46,26 @@
         </table>
     </div>
 </div>
-<div class="col-lg-10 col-sm-8 col-md-10 visible-xs">
-    <div class="b-sub-cont">
-        <table>
-            <tr>
-                <td>Творческий подход.<br /><span style="font-size: 40px;">Практично.</span></td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Когда мебель и пространство создаются <b>для конкретных клиентов</b>, не может существовать двух одинаковых проектов.
-                    Всё разное, всё настолько индивидуально, что даже проработка незначительных, на первый взгляд, деталей <b>меняет общую картину</b>,
-                    а работа превращается в <b>уникальные впечатления</b>.<hr />
-                    <span class="mobile-h">
-                    Присмотритесь, быть может, вы по-новому будете оценивать возможности серьёзной мебели. Ведь <b>именно мельчайшие нюансы выгодно отличают нашу мебель.</b></p>
-                    </span>
-                </td>
-            </tr>
-        </table>
+<div class="container-fluid">
+    <div class="col-lg-10 col-sm-8 col-md-10 visible-xs">
+        <div class="b-sub-cont">
+            <table>
+                <tr>
+                    <td>Творческий подход.<br /><span style="font-size: 40px;">Практично.</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Когда мебель и пространство создаются <b>для конкретных клиентов</b>, не может существовать двух одинаковых проектов.
+                        Всё разное, всё настолько индивидуально, что даже проработка незначительных, на первый взгляд, деталей <b>меняет общую картину</b>,
+                        а работа превращается в <b>уникальные впечатления</b>.<hr />
+                        <span class="mobile-h">
+                        Присмотритесь, быть может, вы по-новому будете оценивать возможности серьёзной мебели. Ведь <b>именно мельчайшие нюансы выгодно отличают нашу мебель.</b></p>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>
-
 
 {% endblock %}

@@ -104,7 +104,7 @@ body {
     top: 172px;
     right: -15px;
     height: 130px;
-    width: 350px;
+    max-width: 767px;
 }
 
 #slider3 {
@@ -547,12 +547,12 @@ body {
 
 @media (min-width: 320px) and (max-width: 768px) {
    .preview {
-        width: 350px;
+        width: auto;
         background-color: white;
         margin: 0 auto;
     }
     .preview img {
-        width: 350px;
+        width: auto;
     }
 }
 
