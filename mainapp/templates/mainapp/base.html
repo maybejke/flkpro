@@ -125,49 +125,23 @@
                     {% endblock content %}
             </div>
         </div>
-
-<!--             <div class="footer">-->
-<!--                    <div class="container footerInside">-->
-<!--                        <ul>-->
-<!--                            <li><a href="tel:79150034883" class="phone-link">+7 (915) 003-48-83</a></li>-->
-<!--                            <li><a href="map.html">карта проезда</a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--             </div>-->
-
         {% block footer %}
             <div class="footer">
+                <hr>
                 <div class="container footerInside">
-                    <div class="footerColumn">
-                        <div class="columnHead">
-                        </div>
-                        <div class="columnLinks">
-                        </div>
+                    <div class="aboutPhone">
+                        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"><a href="map.html" style="color: black;">карта проезда</a></span>
                     </div>
-                    <div class="footerColumn about">
-                        <div class="columnHead">
-                        </div>
-                        <div class="columnAboutUs">
-                            <span class="mobile-h">
-                                <div class="aboutText">
-                                    <a href="map.html">карта проезда</a>
-                                </div>
-                                <div class="aboutPhone">
-                                    <span>Phone:</span> +7 (915) 003-48-83 <br>
-                                </div>
-                                <div class="aboutEmail">
-                                    <span>E-mail:</span> info@flkpro.ru
-                                </div>
-                            </span>
-                        </div>
+                    <div class="aboutPhone">
+                        <span>Phone:</span> +7 (915) 003-48-83 <br>
                     </div>
+                    <div class="aboutEmail">
+                        <span>E-mail:</span> info@flkpro.ru
+                    </div>
+                        </span>
                 </div>
             </div>
         {% endblock %}
-
-
-
-
         <!-- Include jQuery. -->
         <script type="text/javascript" src="/static/js/jquery.js"></script>
         <!-- Include Thumbelina script. -->
