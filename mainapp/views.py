@@ -32,7 +32,14 @@ def kitchen(request):
 
 
 def arch(request):
-    return render(request, 'mainapp/arch.html')
+
+    first_pages = Image.objects.filter(is_active=True, category__name='arch')
+
+    content = {
+        'first_pages': first_pages,
+    }
+
+    return render(request, 'mainapp/arch.html', content)
 
 
 def special(request):
