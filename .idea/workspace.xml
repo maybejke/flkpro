@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1294de57-757b-4b75-a868-470b1100778b" name="Default Changelist" comment="urls">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/arch.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/arch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/decor.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/decor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/kitchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/kitchen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/living.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/living.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/reception.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/reception.html" afterDir="false" />
+    <list default="true" id="1294de57-757b-4b75-a868-470b1100778b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/special.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/special.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/tables.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +36,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="960">
-                  <caret line="60" column="6" selection-start-line="47" selection-end-line="60" selection-end-column="6" />
+                <state relative-caret-position="294">
+                  <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
@@ -70,11 +59,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mainapp/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="36" selection-start-line="36" selection-end-line="36" />
+                <state relative-caret-position="1302">
+                  <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
                   <folding>
                     <element signature="e#0#35#0" expanded="true" />
                   </folding>
@@ -123,7 +112,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/kitchen.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="192">
@@ -175,11 +164,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/special.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="326">
+                  <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
@@ -255,12 +244,12 @@
         <option value="$PROJECT_DIR$/static/style/style.css" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/decor.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/reception.html" />
-        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/special.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/tables.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/living.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/kitchen.html" />
         <option value="$PROJECT_DIR$/mainapp/templates/mainapp/arch.html" />
         <option value="$PROJECT_DIR$/mainapp/views.py" />
+        <option value="$PROJECT_DIR$/mainapp/templates/mainapp/special.html" />
       </list>
     </option>
   </component>
@@ -305,12 +294,6 @@
               <item name="flkpro" type="b2602c69:ProjectViewProjectNode" />
               <item name="flkpro" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flkpro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flkpro" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="living" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flkpro" type="b2602c69:ProjectViewProjectNode" />
@@ -384,17 +367,33 @@
       <workItem from="1557817028834" duration="20522000" />
       <workItem from="1557857390329" duration="5530000" />
       <workItem from="1557916641188" duration="11497000" />
-      <workItem from="1557990174462" duration="313000" />
+      <workItem from="1557990174462" duration="1303000" />
     </task>
+    <task id="LOCAL-00001" summary="pages + imgs">
+      <created>1557990581792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557990581792</updated>
+    </task>
+    <task id="LOCAL-00002" summary="imgs">
+      <created>1557990650768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557990650768</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76981000" />
+    <option name="totallyTimeSpent" value="77971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10436635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10436635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,10 +404,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32968536" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2699784" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2699784" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3280116" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -462,7 +461,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="urls" />
+    <MESSAGE value="pages + imgs" />
+    <MESSAGE value="imgs" />
+    <option name="LAST_COMMIT_MESSAGE" value="imgs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index_old.html">
@@ -619,18 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="60" column="6" selection-start-line="47" selection-end-line="60" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5104">
@@ -702,17 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/special.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/reception.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -739,10 +717,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="1302">
+          <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/templates/mainapp/special.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
