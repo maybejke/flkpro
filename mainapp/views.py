@@ -35,7 +35,7 @@ def kitchen(request):
         'first_pages': first_pages,
     }
 
-    return render(request, 'mainapp/kitchen.html')
+    return render(request, 'mainapp/kitchen.html', content)
 
 
 def arch(request):
@@ -56,7 +56,7 @@ def special(request):
     content = {
         'first_pages': first_pages,
     }
-    return render(request, 'mainapp/special.html')
+    return render(request, 'mainapp/special.html', content)
 
 
 def tables(request):
@@ -66,7 +66,7 @@ def tables(request):
     content = {
         'first_pages': first_pages,
     }
-    return render(request, 'mainapp/tables.html')
+    return render(request, 'mainapp/tables.html', content)
 
 
 def decor(request):
@@ -76,7 +76,7 @@ def decor(request):
     content = {
         'first_pages': first_pages,
     }
-    return render(request, 'mainapp/decor.html')
+    return render(request, 'mainapp/decor.html', content)
 
 
 def living(request):
@@ -86,4 +86,4 @@ def living(request):
     content = {
         'first_pages': first_pages,
     }
-    return render(request, 'mainapp/living.html')
+    return render(request, 'mainapp/living.html', content)
