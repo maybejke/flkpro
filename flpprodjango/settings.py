@@ -25,7 +25,12 @@ SECRET_KEY = 'v!q&v%on@hc&ya(!@2vo+ibx8h00=&u_%ddps*v77eih=0((ei'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+if DEBUG:
+    # Тест
+    ALLOWED_HOSTS = []
+else:
+    #live
+    ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -75,12 +80,23 @@ WSGI_APPLICATION = 'flpprodjango.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+if DEBUG:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'NAME': 'django_project_db',
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'USER': 'django',
+            'PASSWORD': 'queiF6aisaen',
+            'HOST': 'localhost'
+        }
+    }
 
 
 # Password validation
