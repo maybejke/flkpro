@@ -28,6 +28,13 @@ def reception(request):
 
 
 def kitchen(request):
+
+    first_pages = Image.objects.filter(is_active=True, category__name='kitchen')
+
+    content = {
+        'first_pages': first_pages,
+    }
+
     return render(request, 'mainapp/kitchen.html')
 
 
@@ -43,16 +50,40 @@ def arch(request):
 
 
 def special(request):
+
+    first_pages = Image.objects.filter(is_active=True, category__name='special')
+
+    content = {
+        'first_pages': first_pages,
+    }
     return render(request, 'mainapp/special.html')
 
 
 def tables(request):
+
+    first_pages = Image.objects.filter(is_active=True, category__name='tables')
+
+    content = {
+        'first_pages': first_pages,
+    }
     return render(request, 'mainapp/tables.html')
 
 
 def decor(request):
+
+    first_pages = Image.objects.filter(is_active=True, category__name='decor')
+
+    content = {
+        'first_pages': first_pages,
+    }
     return render(request, 'mainapp/decor.html')
 
 
 def living(request):
+
+    first_pages = Image.objects.filter(is_active=True, category__name='living')
+
+    content = {
+        'first_pages': first_pages,
+    }
     return render(request, 'mainapp/living.html')

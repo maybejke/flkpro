@@ -36,7 +36,7 @@
             $thumbnail.addEventListener('click', handleThumbnailClick);
             $thumbnail2.addEventListener('click', handleThumbnailClick);
 
-            setInterval(handleTimeout, 6000);
+            // setInterval(handleTimeout, 6000);
           }
 
           var activeIndex = 0;
@@ -86,7 +86,7 @@
         </script>
     </head>
         {% block header %}
-            <div class="container-fluid">
+                <div class="container">
                     <nav class="navbar navbar-default xsNavBar visible-xs">
                         <div class="container-fluid">
                             <div class="navbar-header">
@@ -99,18 +99,15 @@
                               <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <div class="form-group">
                                  <ul class="nav navbar-nav">
                                     <li class="dropdown b-sublogo">
                                             {% include 'mainapp/includes/inc_mini_menu.html' %}
                                      </li>
                                   </ul>
-                                </div>
                             </div>
                        </div>
                    </nav>
-               </div>
-           </div>
+                </div>
         {% endblock %}
     <body class="body">
         <div class="container content">

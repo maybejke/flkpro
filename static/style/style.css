@@ -101,10 +101,9 @@ body {
 #slider2 {
     position: absolute;
     background-color: #fff;
-    top: 172px;
-    right: -15px;
-    height: 130px;
-    max-width: 767px;
+    top: 194px;
+    height: 105px;
+    width: 100%;
 }
 
 #slider3 {
@@ -315,7 +314,7 @@ body {
 }
 
 .footer {
-    padding-top: 230px;
+    padding-top: 250px;
     min-height: 300px;
     background-color: white;
     color: black;
@@ -364,11 +363,6 @@ body {
     width: 232px;
     color: black;
     font-family: "Roboto Regular", sans-serif;
-}
-
-.aboutText {
-    font-size: 12px;
-    text-align: justify;
 }
 
 .aboutPhone {
@@ -515,6 +509,13 @@ body {
         right: -184px;
         height: 298px;
     }
+    .footer {
+        min-height: 80px;
+        background-color: white;
+        color: black;
+        text-align: justify;
+        margin-top: 80px;
+    }
 }
 @media (min-width: 1200px) and (max-width: 1439px) {
     #slider3 {
@@ -545,14 +546,39 @@ body {
     }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 765px) {
+    body {
+        margin-left: 10px;
+    }
    .preview {
-        width: auto;
+        width: 100%;
         background-color: white;
         margin: 0 auto;
-    }
+   }
     .preview img {
+        width: 100%;
+    }
+    .b-sub-cont {
+        display: block;
+        position: absolute;
+        top: 310px;
+        left: 15px;
         width: auto;
+    }
+    .footer {
+        padding-top: 0;
+        position: relative;
+        top: 643px;
+        min-height: 60px;
+        background-color: white;
+        color: black;
+        text-align: justify;
+    }
+    .footerInside {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: normal;
+        box-sizing: border-box;
     }
 }
 
@@ -570,7 +596,7 @@ body {
         width: 467px;
     }
     .b-sublogo{
-        padding-left: 0;
+        padding-left: 4px;
     }
     #slider3 {
         float: left;
@@ -602,7 +628,7 @@ body {
         font-size: 13px;
     }
     .footer {
-        padding-top: 170px;
+        padding-top: 210px;
         min-height: 80px;
         background-color: white;
         color: black;

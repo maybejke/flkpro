@@ -1,32 +1,38 @@
-
 {% extends 'mainapp/base.html' %}
-{% load static %}
-{% include 'mainapp/includes/inc_menu.html' %}
+{% load staticfiles %}
 
-<div class="l-workflow">
-
-<div class="right-pics" >
-        <div class="subpics">
-                <ul>
-                <li ng-repeat="list in pics" ng-click="selectSearchType(list)" style='background-image: url({{list.url}})'></li>
-                </ul>        
-        </div>
+{% block content %}
+<div class="col-lg-8 col-md-6 col-sm-6 col-xs-10">
+    <div id="preview" class="preview b-main"><img src="/media/spec/1.jpg"> </div>
 </div>
 
-	<div class="b-main-image" ng-switch on="searchType.type" ng-animate=" 'animate' ">
-		<img src="img/spec/1.jpg" ng-switch-default />
-		<img src="img/spec/2.jpg" ng-switch-when="title1" />
-		<img src="img/spec/3.jpg" ng-switch-when="title2" />
-		<img src="img/spec/4.jpg" ng-switch-when="title3" />
-		<img src="img/spec/5.jpg" ng-switch-when="title4" />
-                <img src="img/spec/6.jpg" ng-switch-when="title5" />
-                <img src="img/spec/7.jpg" ng-switch-when="title6" />
-	</div>
-
-	<div class="b-sub-cont">
-		<table>
-			<tr>
-			<td>
+<div class="col-lg-1 col-md-1 col-sm-2 hidden-xs" style="padding-left: 0; padding-right: 0; ">
+    <div  id="slider3">
+        <div class="thumbelina-but vert top">&#708;</div>
+            <ul id="thumbnail" class="thumbnail b-main-image">
+                <li> <a href="/media/spec/1.jpg"><img src="/media/spec/slide1.jpg"></a></li>
+                {% for first_page in first_pages %}
+                    <li> <a href="/media/{{ first_page.image }}"><img src="/media/{{ first_page.mini_image }}"></a></li>
+                {% endfor %}
+            </ul>
+        <div class="thumbelina-but vert bottom">&#709;</div>
+    </div>
+</div>
+<div class="col-xs-10 visible-xs" style="padding-left: 0; padding-right: 0;">
+    <div class="container-fluid">
+        <div  id="slider2">
+                <ul id="thumbnail2" class="thumbnail2 b-main-image">
+                    {% for first_page in first_pages %}
+                        <li> <a href="/media/{{ first_page.image }}"><img src="/media/{{ first_page.mini_image }}"></a></li>
+                    {% endfor %}
+                </ul>
+        </div>
+    </div>
+</div>
+<div class="col-lg-10 col-sm-8 col-md-10 hidden-xs">
+    <div class="b-sub-cont">
+        <table>
+            <tr>
 				Специальные зоны.<br />
 				<span style="font-size: 40px;">Точность исполнения.</span>
 			</td>
@@ -34,7 +40,20 @@
 				<p>Организация специальных зон — процесс внимательного анализа и разработки. Каждый проект строго индивидуален и должен вписываться
 				        в общий вид ваших зон.</p>
 			</td>
-			</tr>
-		</table>
-	</div>
+            </tr>
+        </table>
+    </div>
 </div>
+<div class="col-lg-10 col-sm-8 col-md-10 visible-xs">
+    <div class="b-sub-cont">
+        <table>
+                <tr>Специальные зоны.<br /><span style="font-size: 40px;">Точность исполнения.</span></tr>
+                <tr>
+                    <p>Организация специальных зон — процесс внимательного анализа и разработки. Каждый проект строго индивидуален и должен вписываться
+				        в общий вид ваших зон.</p>
+                 </tr>
+        </table>
+    </div>
+</div>
+
+{% endblock content  %}
