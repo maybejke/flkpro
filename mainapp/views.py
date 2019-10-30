@@ -5,11 +5,19 @@ from .models import Image
 # Create your views here.
 
 
-def index(request):
+def getFirstImage(category):
+    first_image = Image.objects.filter(is_active=True, category__name=category).order_by('id').reverse()
+    return list(first_image)[0]
 
-    first_pages = Image.objects.filter(is_active=True, category__name='all')
+
+def index(request):
+    category = 'all'
+
+    first_image = getFirstImage(category)
+    first_pages = Image.objects.filter(is_active=True, category__name='all').order_by('id').reverse()
 
     content = {
+        'first_image': first_image,
         'first_pages': first_pages,
     }
 
@@ -17,10 +25,13 @@ def index(request):
 
 
 def reception(request):
+    category = 'reception'
 
-    first_pages = Image.objects.filter(is_active=True, category__name='reception')
+    first_image = getFirstImage(category)
+    first_pages = Image.objects.filter(is_active=True, category__name='reception').order_by('id').reverse()
 
     content = {
+        'first_image': first_image,
         'first_pages': first_pages,
     }
 
@@ -28,10 +39,14 @@ def reception(request):
 
 
 def kitchen(request):
+    category = 'kitchen'
 
-    first_pages = Image.objects.filter(is_active=True, category__name='kitchen')
+    first_image = getFirstImage(category)
+
+    first_pages = Image.objects.filter(is_active=True, category__name='kitchen').order_by('id').reverse()
 
     content = {
+        'first_image': first_image,
         'first_pages': first_pages,
     }
 
@@ -39,10 +54,14 @@ def kitchen(request):
 
 
 def arch(request):
+    category = 'arch'
 
-    first_pages = Image.objects.filter(is_active=True, category__name='arch')
+    first_image = getFirstImage(category)
+
+    first_pages = Image.objects.filter(is_active=True, category__name='arch').order_by('id').reverse()
 
     content = {
+        'first_image': first_image,
         'first_pages': first_pages,
     }
 
@@ -50,40 +69,59 @@ def arch(request):
 
 
 def special(request):
+    category = 'special'
 
-    first_pages = Image.objects.filter(is_active=True, category__name='special')
+    first_image = getFirstImage(category)
+
+    first_pages = Image.objects.filter(is_active=True, category__name='special').order_by('id').reverse()
 
     content = {
+        'first_image': first_image,
         'first_pages': first_pages,
     }
+
     return render(request, 'mainapp/special.html', content)
 
 
 def tables(request):
+    category = 'tables'
 
-    first_pages = Image.objects.filter(is_active=True, category__name='tables')
+    first_image = getFirstImage(category)
+
+    first_pages = Image.objects.filter(is_active=True, category__name='tables').order_by('id').reverse()
 
     content = {
+        'first_image': first_image,
         'first_pages': first_pages,
     }
+
     return render(request, 'mainapp/tables.html', content)
 
 
 def decor(request):
+    category = 'decor'
 
-    first_pages = Image.objects.filter(is_active=True, category__name='decor')
+    first_image = getFirstImage(category)
+
+    first_pages = Image.objects.filter(is_active=True, category__name='decor').order_by('id').reverse()
 
     content = {
+        'first_image': first_image,
         'first_pages': first_pages,
     }
+
     return render(request, 'mainapp/decor.html', content)
 
 
 def living(request):
+    category = 'living'
 
-    first_pages = Image.objects.filter(is_active=True, category__name='living')
+    first_image = getFirstImage(category)
+
+    first_pages = Image.objects.filter(is_active=True, category__name='living').order_by('id').reverse()
 
     content = {
+        'first_image': first_image,
         'first_pages': first_pages,
     }
     return render(request, 'mainapp/living.html', content)

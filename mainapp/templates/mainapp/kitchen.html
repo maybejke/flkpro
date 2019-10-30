@@ -3,14 +3,13 @@
 
 {% block content %}
 <div class="col-lg-8 col-md-6 col-sm-6 col-xs-10">
-    <div id="preview" class="preview b-main"><img src="/media/kit/1.jpg"> </div>
+    <div id="preview" class="preview b-main"><img src="/media/{{first_image.image}}"> </div>
 </div>
 
 <div class="col-lg-1 col-md-1 col-sm-2 hidden-xs" style="padding-left: 0; padding-right: 0; ">
     <div  id="slider3">
         <div class="thumbelina-but vert top">&#708;</div>
             <ul id="thumbnail" class="thumbnail b-main-image">
-                <li> <a href="/media/kit/1.jpg"><img src="/media/kit/slide1.jpg"></a></li>
                 {% for first_page in first_pages %}
                     <li> <a href="/media/{{ first_page.image }}"><img src="/media/{{ first_page.mini_image }}"></a></li>
                 {% endfor %}

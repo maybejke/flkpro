@@ -1,8 +1,60 @@
-<li><a href="{% url 'index' %}"><img class="b-logo" src="/static/img/logo.png" alt="flppro"></a></li>
-<li><a href="{% url 'reception' %}">приемные зоны</a></li>
-<li><a href="{% url 'kitchen' %}">обеденные зоны</a></li>
-<li><a href="{% url 'arch' %}">системы хранения</a></li>
-<li><a href="{% url 'special' %}">специализированная мебель</a></li>
-<li><a href="{% url 'tables' %}">столешницы</a></li>
-<li><a href="{% url 'decor' %}">декоративные элементы</a></li>
-<li><a href="{% url 'living' %}">в жилые помещения</a></li>
+<li><a href="{% url 'index' %}"><img class="b-logo" src="/static/img/logo.png" alt="flkpro"></a></li>
+<!--<li><a href="{% url 'reception' %}">приемные зоны</a></li>-->
+<!--<li><a href="{% url 'kitchen' %}">обеденные зоны</a></li>-->
+<!--<li><a href="{% url 'arch' %}">системы хранения</a></li>-->
+<!--<li><a href="{% url 'special' %}">специализированная мебель</a></li>-->
+<!--<li><a href="{% url 'tables' %}">столешницы</a></li>-->
+<!--<li><a href="{% url 'decor' %}">декоративные элементы</a></li>-->
+<!--<li><a href="{% url 'living' %}">в жилые помещения</a></li>-->
+
+<ul id="accordion" class="accordion">
+    <li>
+        <div class="link"><i class="fa fa-database"></i>Решения для офисных помещений<i class="fa fa-chevron-down"></i>
+        </div>
+        <ul class="submenu">
+            <li><a href="{% url 'reception' %}">Приемные зоны</a></li>
+            <li><a href="{% url 'kitchen' %}">Рабочие зоны</a></li>
+            <li><a href="{% url 'index' %}">Зоны общения</a></li>
+            <li><a href="{% url 'kitchen' %}">Обеденные зоны</a></li>
+            <li><a href="{% url 'arch' %}">Системы хранения</a></li>
+            <li><a href="{% url 'index' %}">Разное</a></li>
+        </ul>
+    </li>
+    <li>
+        <div class="link"><i class="fa fa-database"></i>Решения для жилых помещений<i class="fa fa-chevron-down"></i>
+        </div>
+        <ul class="submenu">
+            <li><a href="{% url 'index' %}">Кухни</a></li>
+            <li><a href="{% url 'index' %}">Шкафы</a></li>
+            <li><a href="{% url 'index' %}">Разное</a></li>
+        </ul>
+    </li>
+    <li>
+        <div class="link"><i class="fa fa-database"></i>Отдельные элементы<i class="fa fa-chevron-down"></i>
+        </div>
+        <ul class="submenu">
+            <li><a href="{% url 'reception' %}">Иск.камень</a></li>
+            <li><a href="{% url 'kitchen' %}">Окраска</a></li>
+            <li><a href="{% url 'arch' %}">Ламинаты</a></li>
+            <li><a href="{% url 'arch' %}">Металл</a></li>
+            <li><a href="{% url 'arch' %}">Разное</a></li>
+        </ul>
+    </li>
+    <li>
+        <div class="link"><i class="fa fa-database"></i>Отдельные услуги<i class="fa fa-chevron-down"></i>
+        </div>
+        <ul class="submenu">
+            <li><a href="{% url 'reception' %}">Ремонт и восстановление</a></li>
+            <li><a href="{% url 'kitchen' %}">Переезд и сборка мебели</a></li>
+        </ul>
+    </li>
+    <li>
+        <div class="link"><i class="fa fa-database"></i>Вакансии<i class="fa fa-chevron-down"></i>
+        </div>
+        <ul class="submenu">
+            <li><a href="{% url 'reception' %}">Разработка проектов</a></li>
+            <li><a href="{% url 'kitchen' %}">Производство</a></li>
+            <li><a href="{% url 'kitchen' %}">Сборка мебели</a></li>
+        </ul>
+    </li>
+</ul>

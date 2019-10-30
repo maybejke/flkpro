@@ -2,45 +2,49 @@
 {% load staticfiles %}
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta name="description" content="FLK pro, мебельное производство">
-        <title>FLK pro, мебельные системы</title>
+    <meta name="description" content="FLK pro, мебельное производство">
+    <title>FLK pro, мебельные системы</title>
 
-        {% block css %}
-        <link href="/static/img/favicon.ico" rel="icon"/>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <!-- Include jQuery. -->
-<!--        <script type="text/javascript" src="/static/js/jquery.js"></script>-->
-        <link rel="stylesheet" href="/static/js/thumbelina.js" type="text/javascript" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <!-- Include Thumbelina CSS. -->
-        <link rel="stylesheet" type="text/css" href="/static/style/css/thumbelina.css" />
-        <link rel="stylesheet" href="/static/packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/static/style/style.css">
-        <link href="/static/cloudzoom/cloudzoom.css" rel="stylesheet">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        {% endblock css %}
+    {% block css %}
+    <link href="/static/img/favicon.ico" rel="icon"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- Include jQuery. -->
+    <!--        <script type="text/javascript" src="/static/js/jquery.js"></script>-->
+    <link rel="stylesheet" href="/static/js/thumbelina.js" type="text/javascript"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- Include Thumbelina CSS. -->
+    <link rel="stylesheet" type="text/css" href="/static/style/css/thumbelina.css"/>
+    <link rel="stylesheet" href="/static/packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style/style.css">
+    <link href="/static/cloudzoom/cloudzoom.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    {% endblock css %}
 
-        <script>
-          function init() {
+    <script>
+        function init() {
             var $thumbnail = document.getElementById('thumbnail');
             var $thumbnail2 = document.getElementById('thumbnail2');
 
             $thumbnail.addEventListener('click', handleThumbnailClick);
             $thumbnail2.addEventListener('click', handleThumbnailClick);
 
-            // setInterval(handleTimeout, 6000);
-          }
+            setInterval(handleTimeout, 3000);
+        }
 
-          var activeIndex = 0;
-          function handleTimeout() {
+        var activeIndex = 0;
+
+        function handleTimeout() {
             var $thumbnail = document.getElementById('thumbnail');
             var $thumbnail2 = document.getElementById('thumbnail2');
             var $a = $thumbnail.children[activeIndex].children[0];
@@ -48,8 +52,8 @@
 
             var path = $a.href;
             var path2 = $a2.href;
-            $a.style.backgroundImage
-            $a2.style.backgroundImage
+            $a.style.backgroundImage;
+            $a2.style.backgroundImage;
 
             var $preview = document.getElementById('preview');
             $preview.innerHTML = '';
@@ -58,109 +62,139 @@
             $image.src = path;
             $preview.appendChild($image);
             activeIndex++;
-            if(activeIndex >= $thumbnail.children.length) {
-              activeIndex = 0;
+            if (activeIndex >= $thumbnail.children.length) {
+                activeIndex = 0;
             }
-          }
+        }
 
-          function handleThumbnailClick(event) {
+        function handleThumbnailClick(event) {
             event.preventDefault();
-            if(event.target.tagName === 'IMG') {
-              var $a = event.target.parentElement;
-              var $a2 = event.target.parentElement;
-              var path = $a.href;
-              var path = $a2.href;
-              $a.style.backgroundImage
-              $a2.style.backgroundImage
+            if (event.target.tagName === 'IMG') {
+                var $a = event.target.parentElement;
+                var $a2 = event.target.parentElement;
+                var path = $a.href;
+                var path2 = $a2.href;
+                $a.style.backgroundImage;
+                $a2.style.backgroundImage;
 
-              var $preview = document.getElementById('preview');
-              $preview.innerHTML = '';
+                var $preview = document.getElementById('preview');
+                $preview.innerHTML = '';
 
-              var $image = document.createElement('img');
-              $image.src = path;
-              $preview.appendChild($image);
+                var $image = document.createElement('img');
+                $image.src = path;
+                $preview.appendChild($image);
             }
-          }
+        }
 
-          window.addEventListener('load', init);
-        </script>
-    </head>
-        {% block header %}
-                <div class="container">
-                    <nav class="navbar navbar-default xsNavBar visible-xs">
-                        <div class="container-fluid">
-                            <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                              </button>
-                              <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>
-                            </div>
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                 <ul class="nav navbar-nav">
-                                    <li class="dropdown b-sublogo">
-                                            {% include 'mainapp/includes/inc_mini_menu.html' %}
-                                     </li>
-                                  </ul>
-                            </div>
-                       </div>
-                   </nav>
-                </div>
-        {% endblock %}
-    <body class="body">
-        <div class="container content">
-            <div class="row">
-                 <div class="col-lg-2 col-sm-2">
-                    <ul class="hidden-xs b-sublogo">
-                        {% include 'mainapp/includes/inc_menu.html' %}
-                    </ul>
-                </div>
-                    {% block content%}
-
-                    {% endblock content %}
+        window.addEventListener('load', init);
+    </script>
+</head>
+{% block header %}
+<div class="container">
+    <nav class="navbar navbar-default xsNavBar visible-xs">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand xsLogo" href="{% url 'index' %}">Flkpro</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown b-sublogo">
+                        {% include 'mainapp/includes/inc_mini_menu.html' %}
+                    </li>
+                </ul>
             </div>
         </div>
-        {% block footer %}
-            <div class="footer">
-                <hr>
-                <div class="container footerInside">
-                    <div class="aboutPhone">
-                        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"><a href="map.html" style="color: black;">карта проезда</a></span>
-                    </div>
-                    <div class="aboutPhone">
-                        <span>Phone:</span> +7 (915) 003-48-83 <br>
-                    </div>
-                    <div class="aboutEmail">
-                        <span>E-mail:</span> info@flkpro.ru
-                    </div>
-                        </span>
-                </div>
-            </div>
-        {% endblock %}
-        <!-- Include jQuery. -->
-        <script type="text/javascript" src="/static/js/jquery.js"></script>
-        <!-- Include Thumbelina script. -->
-        <script type="text/javascript" src="/static/js/thumbelina.js"></script>
-        <script type="text/javascript" src="/static/cloudzoom/cloudzoom.js"></script>
-        <!-- Create sliders. -->
-        <script type="text/javascript">
-          $(window).load(function(){
+    </nav>
+</div>
+{% endblock %}
+<body class="body">
+<div class="container content">
+    <div class="row">
+        <div class="col-lg-2 col-sm-2">
+            <ul class="hidden-xs b-sublogo">
+                {% include 'mainapp/includes/inc_menu.html' %}
+            </ul>
+        </div>
+        {% block content%}
 
-              $('#slider3').Thumbelina({
-                  orientation:'vertical',         // Use vertical mode (default horizontal).
-                  $bwdBut:$('#slider3 .top'),     // Selector to top button.
-                  $fwdBut:$('#slider3 .bottom')   // Selector to bottom button.
-              });
+        {% endblock content %}
+    </div>
+</div>
+{% block footer %}
+<div>
+    <div class="container footerInside">
+        <div class="aboutPhone">
+            <span class="glyphicon glyphicon-map-marker" aria-hidden="true"><a target="_blank"
+                                                                               href="https://yandex.ru/maps/?um=constructor%3Af21ffd693f7a799cd6c3dac1df5562a604c13d47d73cd69898d9dc67696b93cf&source=constructorLink"
+                                                                               style="color: black;">карта проезда</a></span>
+        </div>
+        <div class="aboutPhone">
+            <span></span> +7 (915) 003-48-83 <br>
+            <span></span> +7 (499) 755-75-01 <br>
+        </div>
+        <div class="aboutEmail">
+            <span>E-mail:</span> info@flkpro.ru
+        </div>
+        </span>
+    </div>
+</div>
+{% endblock %}
+<!-- Include jQuery. -->
+<script type="text/javascript" src="/static/js/jquery.js"></script>
+<!-- Include Thumbelina script. -->
+<script type="text/javascript" src="/static/js/thumbelina.js"></script>
+<script type="text/javascript" src="/static/cloudzoom/cloudzoom.js"></script>
+<!-- Create sliders. -->
+<script type="text/javascript">
+    $(window).load(function () {
 
-              $('#slider2').Thumbelina({        // Use vertical mode (default horizontal).
-                  $bwdBut:$('#slider2 .left'),     // Selector to left button.
-                  $fwdBut:$('#slider2 .right')   // Selector to right button.
-              });
+        $('#slider3').Thumbelina({
+            orientation: 'vertical',         // Use vertical mode (default horizontal).
+            $bwdBut: $('#slider3 .top'),     // Selector to top button.
+            $fwdBut: $('#slider3 .bottom')   // Selector to bottom button.
+        });
 
-          });
-        </script>
-        <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=hlZ9XEZpA1-3_5slBr2SCE7QUn_n5grl&id=mymap"></script>
-    </body>
+        $('#slider2').Thumbelina({        // Use vertical mode (default horizontal).
+            $bwdBut: $('#slider2 .left'),     // Selector to left button.
+            $fwdBut: $('#slider2 .right')   // Selector to right button.
+        });
+
+    });
+    $(function () {
+        var Accordion = function (el, multiple) {
+            this.el = el || {};
+            this.multiple = multiple || false;
+
+            // Variables privadas
+            var links = this.el.find('.link');
+            // Evento
+            links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
+        }
+
+        Accordion.prototype.dropdown = function (e) {
+            var $el = e.data.el;
+            $this = $(this),
+                $next = $this.next();
+
+            $next.slideToggle();
+            $this.parent().toggleClass('open');
+
+            if (!e.data.multiple) {
+                $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+            };
+        }
+
+        var accordion = new Accordion($('#accordion'), false);
+    });
+</script>
+<script type="text/javascript" charset="utf-8"
+        src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=hlZ9XEZpA1-3_5slBr2SCE7QUn_n5grl&id=mymap"></script>
+</body>
 </html>
